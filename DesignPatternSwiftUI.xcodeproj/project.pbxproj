@@ -16,6 +16,13 @@
 		DB52F82D278F5B390036C620 /* PaymentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F82C278F5B390036C620 /* PaymentTypes.swift */; };
 		DB52F82F278F5B830036C620 /* PaymentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F82E278F5B830036C620 /* PaymentFactory.swift */; };
 		DB52F834278F5F620036C620 /* PaymentExampleFactoryMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F833278F5F620036C620 /* PaymentExampleFactoryMethodView.swift */; };
+		DB52F838278F638E0036C620 /* EarnProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F837278F638E0036C620 /* EarnProtocol.swift */; };
+		DB52F83A278F64A30036C620 /* LocalEarn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F839278F64A30036C620 /* LocalEarn.swift */; };
+		DB52F83C278F66920036C620 /* EarnFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F83B278F66920036C620 /* EarnFactoryProtocol.swift */; };
+		DB52F83E278F67080036C620 /* LocalEarnFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F83D278F67080036C620 /* LocalEarnFactory.swift */; };
+		DB52F840278F68710036C620 /* EarnExampleFactoryMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F83F278F68710036C620 /* EarnExampleFactoryMethodView.swift */; };
+		DB52F842278F74200036C620 /* ForeignEarn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F841278F74200036C620 /* ForeignEarn.swift */; };
+		DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F843278F753F0036C620 /* ForeignEarnFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,13 @@
 		DB52F82C278F5B390036C620 /* PaymentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTypes.swift; sourceTree = "<group>"; };
 		DB52F82E278F5B830036C620 /* PaymentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFactory.swift; sourceTree = "<group>"; };
 		DB52F833278F5F620036C620 /* PaymentExampleFactoryMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentExampleFactoryMethodView.swift; sourceTree = "<group>"; };
+		DB52F837278F638E0036C620 /* EarnProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnProtocol.swift; sourceTree = "<group>"; };
+		DB52F839278F64A30036C620 /* LocalEarn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalEarn.swift; sourceTree = "<group>"; };
+		DB52F83B278F66920036C620 /* EarnFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnFactoryProtocol.swift; sourceTree = "<group>"; };
+		DB52F83D278F67080036C620 /* LocalEarnFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalEarnFactory.swift; sourceTree = "<group>"; };
+		DB52F83F278F68710036C620 /* EarnExampleFactoryMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnExampleFactoryMethodView.swift; sourceTree = "<group>"; };
+		DB52F841278F74200036C620 /* ForeignEarn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignEarn.swift; sourceTree = "<group>"; };
+		DB52F843278F753F0036C620 /* ForeignEarnFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignEarnFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +102,7 @@
 		DB52F825278F58F70036C620 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				DB52F836278F63190036C620 /* EarnExample */,
 				DB52F832278F5EFA0036C620 /* PaymentExample */,
 			);
 			path = FactoryMethod;
@@ -104,6 +119,20 @@
 				DB52F833278F5F620036C620 /* PaymentExampleFactoryMethodView.swift */,
 			);
 			path = PaymentExample;
+			sourceTree = "<group>";
+		};
+		DB52F836278F63190036C620 /* EarnExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB52F837278F638E0036C620 /* EarnProtocol.swift */,
+				DB52F83B278F66920036C620 /* EarnFactoryProtocol.swift */,
+				DB52F839278F64A30036C620 /* LocalEarn.swift */,
+				DB52F83D278F67080036C620 /* LocalEarnFactory.swift */,
+				DB52F841278F74200036C620 /* ForeignEarn.swift */,
+				DB52F843278F753F0036C620 /* ForeignEarnFactory.swift */,
+				DB52F83F278F68710036C620 /* EarnExampleFactoryMethodView.swift */,
+			);
+			path = EarnExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,13 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB52F842278F74200036C620 /* ForeignEarn.swift in Sources */,
+				DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */,
 				DB52F82D278F5B390036C620 /* PaymentTypes.swift in Sources */,
 				DB52F82B278F5AC80036C620 /* CardPayment.swift in Sources */,
 				DB52F834278F5F620036C620 /* PaymentExampleFactoryMethodView.swift in Sources */,
+				DB52F840278F68710036C620 /* EarnExampleFactoryMethodView.swift in Sources */,
 				DB52F829278F5A770036C620 /* GooglePayment.swift in Sources */,
+				DB52F83C278F66920036C620 /* EarnFactoryProtocol.swift in Sources */,
+				DB52F83A278F64A30036C620 /* LocalEarn.swift in Sources */,
 				DB52F827278F5A100036C620 /* Payment.swift in Sources */,
+				DB52F838278F638E0036C620 /* EarnProtocol.swift in Sources */,
 				DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */,
 				DB52F82F278F5B830036C620 /* PaymentFactory.swift in Sources */,
+				DB52F83E278F67080036C620 /* LocalEarnFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
