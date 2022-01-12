@@ -11,7 +11,7 @@ import SwiftUI
 struct DesignPatternSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PaymentExampleFactoryMethodView()
         }
     }
 }

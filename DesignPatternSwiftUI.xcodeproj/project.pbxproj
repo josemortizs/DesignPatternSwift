@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F816278F58BD0036C620 /* DesignPatternSwiftUIApp.swift */; };
-		DB52F819278F58BD0036C620 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F818278F58BD0036C620 /* ContentView.swift */; };
 		DB52F81B278F58BE0036C620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB52F81A278F58BE0036C620 /* Assets.xcassets */; };
 		DB52F81E278F58BE0036C620 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB52F81D278F58BE0036C620 /* Preview Assets.xcassets */; };
+		DB52F827278F5A100036C620 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F826278F5A100036C620 /* Payment.swift */; };
+		DB52F829278F5A770036C620 /* GooglePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F828278F5A770036C620 /* GooglePayment.swift */; };
+		DB52F82B278F5AC80036C620 /* CardPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F82A278F5AC80036C620 /* CardPayment.swift */; };
+		DB52F82D278F5B390036C620 /* PaymentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F82C278F5B390036C620 /* PaymentTypes.swift */; };
+		DB52F82F278F5B830036C620 /* PaymentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F82E278F5B830036C620 /* PaymentFactory.swift */; };
+		DB52F834278F5F620036C620 /* PaymentExampleFactoryMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F833278F5F620036C620 /* PaymentExampleFactoryMethodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB52F813278F58BD0036C620 /* DesignPatternSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB52F816278F58BD0036C620 /* DesignPatternSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternSwiftUIApp.swift; sourceTree = "<group>"; };
-		DB52F818278F58BD0036C620 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB52F81A278F58BE0036C620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB52F81D278F58BE0036C620 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB52F826278F5A100036C620 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		DB52F828278F5A770036C620 /* GooglePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePayment.swift; sourceTree = "<group>"; };
+		DB52F82A278F5AC80036C620 /* CardPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPayment.swift; sourceTree = "<group>"; };
+		DB52F82C278F5B390036C620 /* PaymentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTypes.swift; sourceTree = "<group>"; };
+		DB52F82E278F5B830036C620 /* PaymentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentFactory.swift; sourceTree = "<group>"; };
+		DB52F833278F5F620036C620 /* PaymentExampleFactoryMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentExampleFactoryMethodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,8 @@
 		DB52F815278F58BD0036C620 /* DesignPatternSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DB52F824278F58E70036C620 /* Creational */,
 				DB52F816278F58BD0036C620 /* DesignPatternSwiftUIApp.swift */,
-				DB52F818278F58BD0036C620 /* ContentView.swift */,
 				DB52F81A278F58BE0036C620 /* Assets.xcassets */,
 				DB52F81C278F58BE0036C620 /* Preview Content */,
 			);
@@ -65,6 +75,35 @@
 				DB52F81D278F58BE0036C620 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB52F824278F58E70036C620 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				DB52F825278F58F70036C620 /* FactoryMethod */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		DB52F825278F58F70036C620 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				DB52F832278F5EFA0036C620 /* PaymentExample */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		DB52F832278F5EFA0036C620 /* PaymentExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB52F826278F5A100036C620 /* Payment.swift */,
+				DB52F828278F5A770036C620 /* GooglePayment.swift */,
+				DB52F82A278F5AC80036C620 /* CardPayment.swift */,
+				DB52F82C278F5B390036C620 /* PaymentTypes.swift */,
+				DB52F82E278F5B830036C620 /* PaymentFactory.swift */,
+				DB52F833278F5F620036C620 /* PaymentExampleFactoryMethodView.swift */,
+			);
+			path = PaymentExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB52F819278F58BD0036C620 /* ContentView.swift in Sources */,
+				DB52F82D278F5B390036C620 /* PaymentTypes.swift in Sources */,
+				DB52F82B278F5AC80036C620 /* CardPayment.swift in Sources */,
+				DB52F834278F5F620036C620 /* PaymentExampleFactoryMethodView.swift in Sources */,
+				DB52F829278F5A770036C620 /* GooglePayment.swift in Sources */,
+				DB52F827278F5A100036C620 /* Payment.swift in Sources */,
 				DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */,
+				DB52F82F278F5B830036C620 /* PaymentFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
