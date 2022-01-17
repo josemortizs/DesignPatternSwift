@@ -23,6 +23,13 @@
 		DB52F840278F68710036C620 /* EarnExampleFactoryMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F83F278F68710036C620 /* EarnExampleFactoryMethodView.swift */; };
 		DB52F842278F74200036C620 /* ForeignEarn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F841278F74200036C620 /* ForeignEarn.swift */; };
 		DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F843278F753F0036C620 /* ForeignEarnFactory.swift */; };
+		DB701FB827960FB9001203A1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FB727960FB9001203A1 /* Exercise.swift */; };
+		DB701FBA2796114D001203A1 /* ExerciseSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FB92796114D001203A1 /* ExerciseSummary.swift */; };
+		DB701FBC27961300001203A1 /* StrengthExerciseSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FBB27961300001203A1 /* StrengthExerciseSummary.swift */; };
+		DB701FBE27961462001203A1 /* CardioExerciseSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FBD27961462001203A1 /* CardioExerciseSummary.swift */; };
+		DB701FC0279614F4001203A1 /* ExerciseSummaryTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FBF279614F4001203A1 /* ExerciseSummaryTypes.swift */; };
+		DB701FC22796154C001203A1 /* ExerciseSummaryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FC12796154C001203A1 /* ExerciseSummaryFactory.swift */; };
+		DB701FC4279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FC3279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +50,13 @@
 		DB52F83F278F68710036C620 /* EarnExampleFactoryMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnExampleFactoryMethodView.swift; sourceTree = "<group>"; };
 		DB52F841278F74200036C620 /* ForeignEarn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignEarn.swift; sourceTree = "<group>"; };
 		DB52F843278F753F0036C620 /* ForeignEarnFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignEarnFactory.swift; sourceTree = "<group>"; };
+		DB701FB727960FB9001203A1 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		DB701FB92796114D001203A1 /* ExerciseSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSummary.swift; sourceTree = "<group>"; };
+		DB701FBB27961300001203A1 /* StrengthExerciseSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthExerciseSummary.swift; sourceTree = "<group>"; };
+		DB701FBD27961462001203A1 /* CardioExerciseSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioExerciseSummary.swift; sourceTree = "<group>"; };
+		DB701FBF279614F4001203A1 /* ExerciseSummaryTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSummaryTypes.swift; sourceTree = "<group>"; };
+		DB701FC12796154C001203A1 /* ExerciseSummaryFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSummaryFactory.swift; sourceTree = "<group>"; };
+		DB701FC3279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesExampleFactoryMethodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +116,7 @@
 		DB52F825278F58F70036C620 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				DB701FB627960F7B001203A1 /* ExerciseExample */,
 				DB52F836278F63190036C620 /* EarnExample */,
 				DB52F832278F5EFA0036C620 /* PaymentExample */,
 			);
@@ -133,6 +148,20 @@
 				DB52F83F278F68710036C620 /* EarnExampleFactoryMethodView.swift */,
 			);
 			path = EarnExample;
+			sourceTree = "<group>";
+		};
+		DB701FB627960F7B001203A1 /* ExerciseExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB701FB727960FB9001203A1 /* Exercise.swift */,
+				DB701FB92796114D001203A1 /* ExerciseSummary.swift */,
+				DB701FBB27961300001203A1 /* StrengthExerciseSummary.swift */,
+				DB701FBD27961462001203A1 /* CardioExerciseSummary.swift */,
+				DB701FBF279614F4001203A1 /* ExerciseSummaryTypes.swift */,
+				DB701FC12796154C001203A1 /* ExerciseSummaryFactory.swift */,
+				DB701FC3279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift */,
+			);
+			path = ExerciseExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,16 +236,23 @@
 			files = (
 				DB52F842278F74200036C620 /* ForeignEarn.swift in Sources */,
 				DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */,
+				DB701FC4279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift in Sources */,
+				DB701FBE27961462001203A1 /* CardioExerciseSummary.swift in Sources */,
 				DB52F82D278F5B390036C620 /* PaymentTypes.swift in Sources */,
 				DB52F82B278F5AC80036C620 /* CardPayment.swift in Sources */,
 				DB52F834278F5F620036C620 /* PaymentExampleFactoryMethodView.swift in Sources */,
+				DB701FB827960FB9001203A1 /* Exercise.swift in Sources */,
+				DB701FBA2796114D001203A1 /* ExerciseSummary.swift in Sources */,
 				DB52F840278F68710036C620 /* EarnExampleFactoryMethodView.swift in Sources */,
+				DB701FBC27961300001203A1 /* StrengthExerciseSummary.swift in Sources */,
+				DB701FC0279614F4001203A1 /* ExerciseSummaryTypes.swift in Sources */,
 				DB52F829278F5A770036C620 /* GooglePayment.swift in Sources */,
 				DB52F83C278F66920036C620 /* EarnFactoryProtocol.swift in Sources */,
 				DB52F83A278F64A30036C620 /* LocalEarn.swift in Sources */,
 				DB52F827278F5A100036C620 /* Payment.swift in Sources */,
 				DB52F838278F638E0036C620 /* EarnProtocol.swift in Sources */,
 				DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */,
+				DB701FC22796154C001203A1 /* ExerciseSummaryFactory.swift in Sources */,
 				DB52F82F278F5B830036C620 /* PaymentFactory.swift in Sources */,
 				DB52F83E278F67080036C620 /* LocalEarnFactory.swift in Sources */,
 			);

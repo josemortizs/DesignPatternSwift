@@ -12,7 +12,8 @@ struct DesignPatternSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             //PaymentExampleFactoryMethodView()
-            EarnExampleFactoryMethodView()
+            //EarnExampleFactoryMethodView()
+            ExercisesExampleFactoryMethodView()
         }
     }
 }
