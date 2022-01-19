@@ -14,7 +14,8 @@ struct DesignPatternSwiftUIApp: App {
             //PaymentExampleFactoryMethodView()
             //EarnExampleFactoryMethodView()
             //ExercisesExampleFactoryMethodView()
-            PureExercisesExampleFactoryMethodView()
+            //PureExercisesExampleFactoryMethodView()
+            AbstractFactoryPaymentMethodExampleView()
         }
     }
 }
