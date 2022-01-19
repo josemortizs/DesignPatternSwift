@@ -13,7 +13,8 @@ struct DesignPatternSwiftUIApp: App {
         WindowGroup {
             //PaymentExampleFactoryMethodView()
             //EarnExampleFactoryMethodView()
-            ExercisesExampleFactoryMethodView()
+            //ExercisesExampleFactoryMethodView()
+            PureExercisesExampleFactoryMethodView()
         }
     }
 }
