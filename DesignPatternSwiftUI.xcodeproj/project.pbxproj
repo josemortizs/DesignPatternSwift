@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB322896279F4C5E00A97966 /* PrototypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB322895279F4C5E00A97966 /* PrototypeCard.swift */; };
+		DB322898279F4D4300A97966 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB322897279F4D4300A97966 /* VisaCard.swift */; };
+		DB32289A279F4E6800A97966 /* PrototypeCardExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB322899279F4E6800A97966 /* PrototypeCardExampleView.swift */; };
 		DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F816278F58BD0036C620 /* DesignPatternSwiftUIApp.swift */; };
 		DB52F81B278F58BE0036C620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB52F81A278F58BE0036C620 /* Assets.xcassets */; };
 		DB52F81E278F58BE0036C620 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB52F81D278F58BE0036C620 /* Preview Assets.xcassets */; };
@@ -50,6 +53,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB322895279F4C5E00A97966 /* PrototypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCard.swift; sourceTree = "<group>"; };
+		DB322897279F4D4300A97966 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
+		DB322899279F4E6800A97966 /* PrototypeCardExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCardExampleView.swift; sourceTree = "<group>"; };
 		DB52F813278F58BD0036C620 /* DesignPatternSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB52F816278F58BD0036C620 /* DesignPatternSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternSwiftUIApp.swift; sourceTree = "<group>"; };
 		DB52F81A278F58BE0036C620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +110,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB322893279F4BA300A97966 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				DB322894279F4BB000A97966 /* CardExample */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		DB322894279F4BB000A97966 /* CardExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB322895279F4C5E00A97966 /* PrototypeCard.swift */,
+				DB322897279F4D4300A97966 /* VisaCard.swift */,
+				DB322899279F4E6800A97966 /* PrototypeCardExampleView.swift */,
+			);
+			path = CardExample;
+			sourceTree = "<group>";
+		};
 		DB52F80A278F58BD0036C620 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +166,7 @@
 		DB52F824278F58E70036C620 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				DB322893279F4BA300A97966 /* Prototype */,
 				DB59B7732799EE98004DC75C /* Builder */,
 				DB7AAF9F2798964D008ECDAD /* AbstractFactory */,
 				DB52F825278F58F70036C620 /* FactoryMethod */,
@@ -347,6 +372,8 @@
 				DB701FC4279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift in Sources */,
 				DB701FBE27961462001203A1 /* CardioExerciseSummary.swift in Sources */,
 				DB7AAFB127989B70008ECDAD /* PaymentInAdvanceMethodAF.swift in Sources */,
+				DB322898279F4D4300A97966 /* VisaCard.swift in Sources */,
+				DB32289A279F4E6800A97966 /* PrototypeCardExampleView.swift in Sources */,
 				DB7AAFB927989FB0008ECDAD /* PaymentAFMethodClient.swift in Sources */,
 				DB7AAFB527989E23008ECDAD /* PaymentInAdvanceCardFactory.swift in Sources */,
 				DB59B7762799EEC9004DC75C /* Card.swift in Sources */,
@@ -360,6 +387,7 @@
 				DB701FBC27961300001203A1 /* StrengthExerciseSummary.swift in Sources */,
 				DB701FC0279614F4001203A1 /* ExerciseSummaryTypes.swift in Sources */,
 				DB52F829278F5A770036C620 /* GooglePayment.swift in Sources */,
+				DB322896279F4C5E00A97966 /* PrototypeCard.swift in Sources */,
 				DB52F83C278F66920036C620 /* EarnFactoryProtocol.swift in Sources */,
 				DB7AAFAF27989ACF008ECDAD /* MontlyMethodAF.swift in Sources */,
 				DB52F83A278F64A30036C620 /* LocalEarn.swift in Sources */,
