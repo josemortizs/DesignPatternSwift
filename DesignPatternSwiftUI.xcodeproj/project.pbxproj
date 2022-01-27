@@ -50,6 +50,8 @@
 		DB7AAFB727989F28008ECDAD /* MontlyGoogleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AAFB627989F28008ECDAD /* MontlyGoogleFactory.swift */; };
 		DB7AAFB927989FB0008ECDAD /* PaymentAFMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AAFB827989FB0008ECDAD /* PaymentAFMethodClient.swift */; };
 		DB7AAFBB2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AAFBA2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift */; };
+		DBBFA28227A2F090005ED844 /* CardSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28127A2F090005ED844 /* CardSingleton.swift */; };
+		DBBFA28427A2F113005ED844 /* CardSingletonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28327A2F113005ED844 /* CardSingletonExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +99,8 @@
 		DB7AAFB627989F28008ECDAD /* MontlyGoogleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontlyGoogleFactory.swift; sourceTree = "<group>"; };
 		DB7AAFB827989FB0008ECDAD /* PaymentAFMethodClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAFMethodClient.swift; sourceTree = "<group>"; };
 		DB7AAFBA2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryPaymentMethodExampleView.swift; sourceTree = "<group>"; };
+		DBBFA28127A2F090005ED844 /* CardSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingleton.swift; sourceTree = "<group>"; };
+		DBBFA28327A2F113005ED844 /* CardSingletonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingletonExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,7 @@
 		DB52F824278F58E70036C620 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				DBBFA27F27A2F00F005ED844 /* Singleton */,
 				DB322893279F4BA300A97966 /* Prototype */,
 				DB59B7732799EE98004DC75C /* Builder */,
 				DB7AAF9F2798964D008ECDAD /* AbstractFactory */,
@@ -296,6 +301,23 @@
 			path = Method;
 			sourceTree = "<group>";
 		};
+		DBBFA27F27A2F00F005ED844 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				DBBFA28027A2F01B005ED844 /* CardExample */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		DBBFA28027A2F01B005ED844 /* CardExample */ = {
+			isa = PBXGroup;
+			children = (
+				DBBFA28127A2F090005ED844 /* CardSingleton.swift */,
+				DBBFA28327A2F113005ED844 /* CardSingletonExampleView.swift */,
+			);
+			path = CardExample;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -376,6 +398,7 @@
 				DB32289A279F4E6800A97966 /* PrototypeCardExampleView.swift in Sources */,
 				DB7AAFB927989FB0008ECDAD /* PaymentAFMethodClient.swift in Sources */,
 				DB7AAFB527989E23008ECDAD /* PaymentInAdvanceCardFactory.swift in Sources */,
+				DBBFA28427A2F113005ED844 /* CardSingletonExampleView.swift in Sources */,
 				DB59B7762799EEC9004DC75C /* Card.swift in Sources */,
 				DB52F82D278F5B390036C620 /* PaymentTypes.swift in Sources */,
 				DB7AAF9E27989190008ECDAD /* PureExercisesExampleFactoryMethodView.swift in Sources */,
@@ -399,6 +422,7 @@
 				DB7AAFBB2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift in Sources */,
 				DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */,
 				DB7AAFA72798987A008ECDAD /* CardPaymentAF.swift in Sources */,
+				DBBFA28227A2F090005ED844 /* CardSingleton.swift in Sources */,
 				DB7AAFAD27989A52008ECDAD /* MethodAF.swift in Sources */,
 				DB59B7782799F09F004DC75C /* BuilderExampleView.swift in Sources */,
 				DB701FC22796154C001203A1 /* ExerciseSummaryFactory.swift in Sources */,
