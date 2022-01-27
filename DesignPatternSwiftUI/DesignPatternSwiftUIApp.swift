@@ -18,7 +18,8 @@ struct DesignPatternSwiftUIApp: App {
             //AbstractFactoryPaymentMethodExampleView()
             //BuilderExampleView()
             //PrototypeCardExampleView()
-            CardSingletonExampleView()
+            //CardSingletonExampleView()
+            ExampleBankChaingOfResponsabilityView()
         }
     }
 }
