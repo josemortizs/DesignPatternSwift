@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB18516B27A5B79F00472A3E /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18516A27A5B79F00472A3E /* CreditCard.swift */; };
+		DB18516D27A5B7E700472A3E /* CreditCardCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18516C27A5B7E700472A3E /* CreditCardCollection.swift */; };
+		DB18516F27A5BABF00472A3E /* CreditCardIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18516E27A5BABF00472A3E /* CreditCardIterator.swift */; };
+		DB18517127A5BD3C00472A3E /* IteratorExampleCreditCardCollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB18517027A5BD3C00472A3E /* IteratorExampleCreditCardCollectionsView.swift */; };
 		DB322896279F4C5E00A97966 /* PrototypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB322895279F4C5E00A97966 /* PrototypeCard.swift */; };
 		DB322898279F4D4300A97966 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB322897279F4D4300A97966 /* VisaCard.swift */; };
 		DB32289A279F4E6800A97966 /* PrototypeCardExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB322899279F4E6800A97966 /* PrototypeCardExampleView.swift */; };
@@ -67,6 +71,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB18516A27A5B79F00472A3E /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		DB18516C27A5B7E700472A3E /* CreditCardCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardCollection.swift; sourceTree = "<group>"; };
+		DB18516E27A5BABF00472A3E /* CreditCardIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardIterator.swift; sourceTree = "<group>"; };
+		DB18517027A5BD3C00472A3E /* IteratorExampleCreditCardCollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorExampleCreditCardCollectionsView.swift; sourceTree = "<group>"; };
 		DB322895279F4C5E00A97966 /* PrototypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCard.swift; sourceTree = "<group>"; };
 		DB322897279F4D4300A97966 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
 		DB322899279F4E6800A97966 /* PrototypeCardExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCardExampleView.swift; sourceTree = "<group>"; };
@@ -138,6 +146,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB18516827A5B77C00472A3E /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				DB18516927A5B78400472A3E /* CreditCardExample */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		DB18516927A5B78400472A3E /* CreditCardExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB18516A27A5B79F00472A3E /* CreditCard.swift */,
+				DB18516C27A5B7E700472A3E /* CreditCardCollection.swift */,
+				DB18516E27A5BABF00472A3E /* CreditCardIterator.swift */,
+				DB18517027A5BD3C00472A3E /* IteratorExampleCreditCardCollectionsView.swift */,
+			);
+			path = CreditCardExample;
+			sourceTree = "<group>";
+		};
 		DB322893279F4BA300A97966 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +373,7 @@
 		DBBFA28627A2F308005ED844 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				DB18516827A5B77C00472A3E /* Iterator */,
 				DBFA0BCE27A4599800FD69A6 /* Command */,
 				DBBFA28727A2F36B005ED844 /* ChainOfResponsability */,
 			);
@@ -466,6 +494,7 @@
 			files = (
 				DB7AAF9A27989030008ECDAD /* StrengthExerciseSummaryFactory.swift in Sources */,
 				DB52F842278F74200036C620 /* ForeignEarn.swift in Sources */,
+				DB18516F27A5BABF00472A3E /* CreditCardIterator.swift in Sources */,
 				DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */,
 				DB701FC4279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift in Sources */,
 				DB701FBE27961462001203A1 /* CardioExerciseSummary.swift in Sources */,
@@ -480,6 +509,7 @@
 				DB59B7762799EEC9004DC75C /* Card.swift in Sources */,
 				DB52F82D278F5B390036C620 /* PaymentTypes.swift in Sources */,
 				DB7AAF9E27989190008ECDAD /* PureExercisesExampleFactoryMethodView.swift in Sources */,
+				DB18516B27A5B79F00472A3E /* CreditCard.swift in Sources */,
 				DB52F82B278F5AC80036C620 /* CardPayment.swift in Sources */,
 				DB52F834278F5F620036C620 /* PaymentExampleFactoryMethodView.swift in Sources */,
 				DB701FB827960FB9001203A1 /* Exercise.swift in Sources */,
@@ -491,6 +521,7 @@
 				DBBFA28A27A2F48A005ED844 /* ApprovedLoanHandler.swift in Sources */,
 				DB52F829278F5A770036C620 /* GooglePayment.swift in Sources */,
 				DB322896279F4C5E00A97966 /* PrototypeCard.swift in Sources */,
+				DB18516D27A5B7E700472A3E /* CreditCardCollection.swift in Sources */,
 				DB52F83C278F66920036C620 /* EarnFactoryProtocol.swift in Sources */,
 				DB7AAFAF27989ACF008ECDAD /* MontlyMethodAF.swift in Sources */,
 				DB52F83A278F64A30036C620 /* LocalEarn.swift in Sources */,
@@ -499,6 +530,7 @@
 				DBBFA28C27A2F4F3005ED844 /* GoldHandler.swift in Sources */,
 				DB7AAF9C2798912B008ECDAD /* CardioExerciseSummaryFactory.swift in Sources */,
 				DBFA0BD127A45D6800FD69A6 /* Command.swift in Sources */,
+				DB18517127A5BD3C00472A3E /* IteratorExampleCreditCardCollectionsView.swift in Sources */,
 				DB52F838278F638E0036C620 /* EarnProtocol.swift in Sources */,
 				DB7AAF9827988F98008ECDAD /* ExerciseSummaryFactoryProtocol.swift in Sources */,
 				DBFA0BDB27A45FD600FD69A6 /* ExampleBankCommandExampleView.swift in Sources */,
@@ -657,6 +689,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -686,6 +719,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
