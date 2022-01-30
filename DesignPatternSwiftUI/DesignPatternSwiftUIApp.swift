@@ -22,7 +22,8 @@ struct DesignPatternSwiftUIApp: App {
             //ExampleBankChaingOfResponsabilityView()
             //ExampleBankCommandExampleView()
             //IteratorExampleCreditCardCollectionsView()
-            ChatExampleMediatorExampleView()
+            //ChatExampleMediatorExampleView()
+            ExampleArticleMementoView()
         }
     }
 }

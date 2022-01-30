@@ -38,6 +38,10 @@
 		DB5F52EE27A69CCA003BD940 /* ConcreteColleague2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5F52ED27A69CCA003BD940 /* ConcreteColleague2.swift */; };
 		DB5F52F027A69CFE003BD940 /* ConcreteMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5F52EF27A69CFE003BD940 /* ConcreteMediator.swift */; };
 		DB5F52F227A69DDE003BD940 /* ChatExampleMediatorExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5F52F127A69DDE003BD940 /* ChatExampleMediatorExampleView.swift */; };
+		DB5F52F627A73942003BD940 /* ArticleMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5F52F527A73942003BD940 /* ArticleMemento.swift */; };
+		DB5F52F827A7397D003BD940 /* ArticleOriginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5F52F727A7397D003BD940 /* ArticleOriginator.swift */; };
+		DB5F52FA27A73A37003BD940 /* Carataker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5F52F927A73A37003BD940 /* Carataker.swift */; };
+		DB5F52FE27A73AB3003BD940 /* ExampleArticleMementoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5F52FD27A73AB3003BD940 /* ExampleArticleMementoView.swift */; };
 		DB701FB827960FB9001203A1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FB727960FB9001203A1 /* Exercise.swift */; };
 		DB701FBA2796114D001203A1 /* ExerciseSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FB92796114D001203A1 /* ExerciseSummary.swift */; };
 		DB701FBC27961300001203A1 /* StrengthExerciseSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB701FBB27961300001203A1 /* StrengthExerciseSummary.swift */; };
@@ -109,6 +113,10 @@
 		DB5F52ED27A69CCA003BD940 /* ConcreteColleague2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteColleague2.swift; sourceTree = "<group>"; };
 		DB5F52EF27A69CFE003BD940 /* ConcreteMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteMediator.swift; sourceTree = "<group>"; };
 		DB5F52F127A69DDE003BD940 /* ChatExampleMediatorExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatExampleMediatorExampleView.swift; sourceTree = "<group>"; };
+		DB5F52F527A73942003BD940 /* ArticleMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleMemento.swift; sourceTree = "<group>"; };
+		DB5F52F727A7397D003BD940 /* ArticleOriginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleOriginator.swift; sourceTree = "<group>"; };
+		DB5F52F927A73A37003BD940 /* Carataker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carataker.swift; sourceTree = "<group>"; };
+		DB5F52FD27A73AB3003BD940 /* ExampleArticleMementoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleArticleMementoView.swift; sourceTree = "<group>"; };
 		DB701FB727960FB9001203A1 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		DB701FB92796114D001203A1 /* ExerciseSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSummary.swift; sourceTree = "<group>"; };
 		DB701FBB27961300001203A1 /* StrengthExerciseSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthExerciseSummary.swift; sourceTree = "<group>"; };
@@ -318,6 +326,25 @@
 			path = ExampleChat;
 			sourceTree = "<group>";
 		};
+		DB5F52F327A738C6003BD940 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				DB5F52F427A7391D003BD940 /* ExampleArticle */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		DB5F52F427A7391D003BD940 /* ExampleArticle */ = {
+			isa = PBXGroup;
+			children = (
+				DB5F52F527A73942003BD940 /* ArticleMemento.swift */,
+				DB5F52F727A7397D003BD940 /* ArticleOriginator.swift */,
+				DB5F52F927A73A37003BD940 /* Carataker.swift */,
+				DB5F52FD27A73AB3003BD940 /* ExampleArticleMementoView.swift */,
+			);
+			path = ExampleArticle;
+			sourceTree = "<group>";
+		};
 		DB701FB627960F7B001203A1 /* ExerciseExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +433,7 @@
 		DBBFA28627A2F308005ED844 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				DB5F52F327A738C6003BD940 /* Memento */,
 				DB5F52E527A69B1A003BD940 /* Mediator */,
 				DB18516827A5B77C00472A3E /* Iterator */,
 				DBFA0BCE27A4599800FD69A6 /* Command */,
@@ -528,6 +556,7 @@
 			files = (
 				DB7AAF9A27989030008ECDAD /* StrengthExerciseSummaryFactory.swift in Sources */,
 				DB52F842278F74200036C620 /* ForeignEarn.swift in Sources */,
+				DB5F52FE27A73AB3003BD940 /* ExampleArticleMementoView.swift in Sources */,
 				DB18516F27A5BABF00472A3E /* CreditCardIterator.swift in Sources */,
 				DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */,
 				DB701FC4279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift in Sources */,
@@ -542,9 +571,11 @@
 				DB5F52EA27A69BF2003BD940 /* Colleague.swift in Sources */,
 				DBBFA29427A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift in Sources */,
 				DB59B7762799EEC9004DC75C /* Card.swift in Sources */,
+				DB5F52FA27A73A37003BD940 /* Carataker.swift in Sources */,
 				DB52F82D278F5B390036C620 /* PaymentTypes.swift in Sources */,
 				DB7AAF9E27989190008ECDAD /* PureExercisesExampleFactoryMethodView.swift in Sources */,
 				DB18516B27A5B79F00472A3E /* CreditCard.swift in Sources */,
+				DB5F52F827A7397D003BD940 /* ArticleOriginator.swift in Sources */,
 				DB52F82B278F5AC80036C620 /* CardPayment.swift in Sources */,
 				DB52F834278F5F620036C620 /* PaymentExampleFactoryMethodView.swift in Sources */,
 				DB701FB827960FB9001203A1 /* Exercise.swift in Sources */,
@@ -576,6 +607,7 @@
 				DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */,
 				DBFA0BD727A45F0600FD69A6 /* CreditCardDeactivateCommand.swift in Sources */,
 				DBFA0BD527A45E6B00FD69A6 /* CredictCardActivateCommand.swift in Sources */,
+				DB5F52F627A73942003BD940 /* ArticleMemento.swift in Sources */,
 				DB7AAFA72798987A008ECDAD /* CardPaymentAF.swift in Sources */,
 				DBBFA28227A2F090005ED844 /* CardSingleton.swift in Sources */,
 				DBBFA29227A2F687005ED844 /* BankHandler.swift in Sources */,
