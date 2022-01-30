@@ -21,7 +21,8 @@ struct DesignPatternSwiftUIApp: App {
             //CardSingletonExampleView()
             //ExampleBankChaingOfResponsabilityView()
             //ExampleBankCommandExampleView()
-            IteratorExampleCreditCardCollectionsView()
+            //IteratorExampleCreditCardCollectionsView()
+            ChatExampleMediatorExampleView()
         }
     }
 }
