@@ -72,6 +72,13 @@
 		DBBFA29027A2F63A005ED844 /* BlackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28F27A2F63A005ED844 /* BlackHandler.swift */; };
 		DBBFA29227A2F687005ED844 /* BankHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA29127A2F687005ED844 /* BankHandler.swift */; };
 		DBBFA29427A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA29327A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift */; };
+		DBE27B5327B1A51F000DA6B5 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5227B1A51F000DA6B5 /* TrafficLight.swift */; };
+		DBE27B5527B1A55E000DA6B5 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5427B1A55E000DA6B5 /* Observer.swift */; };
+		DBE27B5727B1A586000DA6B5 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5627B1A586000DA6B5 /* Subject.swift */; };
+		DBE27B5927B1A65B000DA6B5 /* MessagePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5827B1A65B000DA6B5 /* MessagePublisher.swift */; };
+		DBE27B5C27B1A79D000DA6B5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5B27B1A79D000DA6B5 /* Car.swift */; };
+		DBE27B5E27B1A81E000DA6B5 /* Pedestrian.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5D27B1A81E000DA6B5 /* Pedestrian.swift */; };
+		DBE27B6027B1A89E000DA6B5 /* ObserverPatternExampleSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5F27B1A89E000DA6B5 /* ObserverPatternExampleSemaphore.swift */; };
 		DBFA0BD127A45D6800FD69A6 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA0BD027A45D6800FD69A6 /* Command.swift */; };
 		DBFA0BD327A45D9200FD69A6 /* CredictCardReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA0BD227A45D9200FD69A6 /* CredictCardReceiver.swift */; };
 		DBFA0BD527A45E6B00FD69A6 /* CredictCardActivateCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA0BD427A45E6B00FD69A6 /* CredictCardActivateCommand.swift */; };
@@ -147,6 +154,13 @@
 		DBBFA28F27A2F63A005ED844 /* BlackHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHandler.swift; sourceTree = "<group>"; };
 		DBBFA29127A2F687005ED844 /* BankHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankHandler.swift; sourceTree = "<group>"; };
 		DBBFA29327A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBankChaingOfResponsabilityView.swift; sourceTree = "<group>"; };
+		DBE27B5227B1A51F000DA6B5 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
+		DBE27B5427B1A55E000DA6B5 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		DBE27B5627B1A586000DA6B5 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		DBE27B5827B1A65B000DA6B5 /* MessagePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePublisher.swift; sourceTree = "<group>"; };
+		DBE27B5B27B1A79D000DA6B5 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		DBE27B5D27B1A81E000DA6B5 /* Pedestrian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedestrian.swift; sourceTree = "<group>"; };
+		DBE27B5F27B1A89E000DA6B5 /* ObserverPatternExampleSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPatternExampleSemaphore.swift; sourceTree = "<group>"; };
 		DBFA0BD027A45D6800FD69A6 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
 		DBFA0BD227A45D9200FD69A6 /* CredictCardReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredictCardReceiver.swift; sourceTree = "<group>"; };
 		DBFA0BD427A45E6B00FD69A6 /* CredictCardActivateCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredictCardActivateCommand.swift; sourceTree = "<group>"; };
@@ -433,6 +447,7 @@
 		DBBFA28627A2F308005ED844 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				DBE27B5027B1A4E8000DA6B5 /* Observer */,
 				DB5F52F327A738C6003BD940 /* Memento */,
 				DB5F52E527A69B1A003BD940 /* Mediator */,
 				DB18516827A5B77C00472A3E /* Iterator */,
@@ -461,6 +476,28 @@
 				DBBFA29327A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift */,
 			);
 			path = ExampleApprovedLoan;
+			sourceTree = "<group>";
+		};
+		DBE27B5027B1A4E8000DA6B5 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				DBE27B5127B1A4F9000DA6B5 /* ExampleTrafficLight */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		DBE27B5127B1A4F9000DA6B5 /* ExampleTrafficLight */ = {
+			isa = PBXGroup;
+			children = (
+				DBE27B5227B1A51F000DA6B5 /* TrafficLight.swift */,
+				DBE27B5427B1A55E000DA6B5 /* Observer.swift */,
+				DBE27B5627B1A586000DA6B5 /* Subject.swift */,
+				DBE27B5827B1A65B000DA6B5 /* MessagePublisher.swift */,
+				DBE27B5B27B1A79D000DA6B5 /* Car.swift */,
+				DBE27B5D27B1A81E000DA6B5 /* Pedestrian.swift */,
+				DBE27B5F27B1A89E000DA6B5 /* ObserverPatternExampleSemaphore.swift */,
+			);
+			path = ExampleTrafficLight;
 			sourceTree = "<group>";
 		};
 		DBFA0BCE27A4599800FD69A6 /* Command */ = {
@@ -568,7 +605,9 @@
 				DB7AAFB927989FB0008ECDAD /* PaymentAFMethodClient.swift in Sources */,
 				DB7AAFB527989E23008ECDAD /* PaymentInAdvanceCardFactory.swift in Sources */,
 				DBBFA28427A2F113005ED844 /* CardSingletonExampleView.swift in Sources */,
+				DBE27B5327B1A51F000DA6B5 /* TrafficLight.swift in Sources */,
 				DB5F52EA27A69BF2003BD940 /* Colleague.swift in Sources */,
+				DBE27B5727B1A586000DA6B5 /* Subject.swift in Sources */,
 				DBBFA29427A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift in Sources */,
 				DB59B7762799EEC9004DC75C /* Card.swift in Sources */,
 				DB5F52FA27A73A37003BD940 /* Carataker.swift in Sources */,
@@ -596,14 +635,17 @@
 				DB52F827278F5A100036C620 /* Payment.swift in Sources */,
 				DB7AAFA927989908008ECDAD /* GooglePaymentAF.swift in Sources */,
 				DBBFA28C27A2F4F3005ED844 /* GoldHandler.swift in Sources */,
+				DBE27B5927B1A65B000DA6B5 /* MessagePublisher.swift in Sources */,
 				DB7AAF9C2798912B008ECDAD /* CardioExerciseSummaryFactory.swift in Sources */,
 				DBFA0BD127A45D6800FD69A6 /* Command.swift in Sources */,
 				DB18517127A5BD3C00472A3E /* IteratorExampleCreditCardCollectionsView.swift in Sources */,
 				DB5F52F227A69DDE003BD940 /* ChatExampleMediatorExampleView.swift in Sources */,
 				DB52F838278F638E0036C620 /* EarnProtocol.swift in Sources */,
+				DBE27B5527B1A55E000DA6B5 /* Observer.swift in Sources */,
 				DB7AAF9827988F98008ECDAD /* ExerciseSummaryFactoryProtocol.swift in Sources */,
 				DBFA0BDB27A45FD600FD69A6 /* ExampleBankCommandExampleView.swift in Sources */,
 				DB7AAFBB2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift in Sources */,
+				DBE27B6027B1A89E000DA6B5 /* ObserverPatternExampleSemaphore.swift in Sources */,
 				DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */,
 				DBFA0BD727A45F0600FD69A6 /* CreditCardDeactivateCommand.swift in Sources */,
 				DBFA0BD527A45E6B00FD69A6 /* CredictCardActivateCommand.swift in Sources */,
@@ -614,6 +656,8 @@
 				DB5F52EC27A69C4C003BD940 /* ConcreteColleague1.swift in Sources */,
 				DB7AAFAD27989A52008ECDAD /* MethodAF.swift in Sources */,
 				DB59B7782799F09F004DC75C /* BuilderExampleView.swift in Sources */,
+				DBE27B5C27B1A79D000DA6B5 /* Car.swift in Sources */,
+				DBE27B5E27B1A81E000DA6B5 /* Pedestrian.swift in Sources */,
 				DB701FC22796154C001203A1 /* ExerciseSummaryFactory.swift in Sources */,
 				DB7AAFB327989DAE008ECDAD /* AbstractFactory.swift in Sources */,
 				DB7AAFB727989F28008ECDAD /* MontlyGoogleFactory.swift in Sources */,
