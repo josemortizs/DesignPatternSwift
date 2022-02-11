@@ -24,7 +24,8 @@ struct DesignPatternSwiftUIApp: App {
             //IteratorExampleCreditCardCollectionsView()
             //ChatExampleMediatorExampleView()
             //ExampleArticleMementoView()
-            ObserverPatternExampleSemaphore()
+            //ObserverPatternExampleSemaphore()
+            MobileAlarmStateExampleView()
         }
     }
 }

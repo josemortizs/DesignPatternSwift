@@ -64,6 +64,12 @@
 		DB7AAFB727989F28008ECDAD /* MontlyGoogleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AAFB627989F28008ECDAD /* MontlyGoogleFactory.swift */; };
 		DB7AAFB927989FB0008ECDAD /* PaymentAFMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AAFB827989FB0008ECDAD /* PaymentAFMethodClient.swift */; };
 		DB7AAFBB2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AAFBA2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift */; };
+		DBA1F3F227B6E04A0004B00D /* MobileAlertStateContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1F3F127B6E04A0004B00D /* MobileAlertStateContext.swift */; };
+		DBA1F3F427B6E06B0004B00D /* MobileAlertState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1F3F327B6E06B0004B00D /* MobileAlertState.swift */; };
+		DBA1F3F727B6E09C0004B00D /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1F3F627B6E09C0004B00D /* Sound.swift */; };
+		DBA1F3F927B6E0F30004B00D /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1F3F827B6E0F30004B00D /* Vibration.swift */; };
+		DBA1F3FB27B6E1130004B00D /* Silent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1F3FA27B6E1130004B00D /* Silent.swift */; };
+		DBA1F3FD27B6E1B80004B00D /* MobileAlarmStateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1F3FC27B6E1B80004B00D /* MobileAlarmStateExampleView.swift */; };
 		DBBFA28227A2F090005ED844 /* CardSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28127A2F090005ED844 /* CardSingleton.swift */; };
 		DBBFA28427A2F113005ED844 /* CardSingletonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28327A2F113005ED844 /* CardSingletonExampleView.swift */; };
 		DBBFA28A27A2F48A005ED844 /* ApprovedLoanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28927A2F48A005ED844 /* ApprovedLoanHandler.swift */; };
@@ -146,6 +152,12 @@
 		DB7AAFB627989F28008ECDAD /* MontlyGoogleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontlyGoogleFactory.swift; sourceTree = "<group>"; };
 		DB7AAFB827989FB0008ECDAD /* PaymentAFMethodClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAFMethodClient.swift; sourceTree = "<group>"; };
 		DB7AAFBA2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryPaymentMethodExampleView.swift; sourceTree = "<group>"; };
+		DBA1F3F127B6E04A0004B00D /* MobileAlertStateContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAlertStateContext.swift; sourceTree = "<group>"; };
+		DBA1F3F327B6E06B0004B00D /* MobileAlertState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAlertState.swift; sourceTree = "<group>"; };
+		DBA1F3F627B6E09C0004B00D /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		DBA1F3F827B6E0F30004B00D /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		DBA1F3FA27B6E1130004B00D /* Silent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silent.swift; sourceTree = "<group>"; };
+		DBA1F3FC27B6E1B80004B00D /* MobileAlarmStateExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAlarmStateExampleView.swift; sourceTree = "<group>"; };
 		DBBFA28127A2F090005ED844 /* CardSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingleton.swift; sourceTree = "<group>"; };
 		DBBFA28327A2F113005ED844 /* CardSingletonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingletonExampleView.swift; sourceTree = "<group>"; };
 		DBBFA28927A2F48A005ED844 /* ApprovedLoanHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedLoanHandler.swift; sourceTree = "<group>"; };
@@ -427,6 +439,27 @@
 			path = Method;
 			sourceTree = "<group>";
 		};
+		DBA1F3EF27B6E0260004B00D /* State */ = {
+			isa = PBXGroup;
+			children = (
+				DBA1F3F027B6E02E0004B00D /* AlarmExample */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		DBA1F3F027B6E02E0004B00D /* AlarmExample */ = {
+			isa = PBXGroup;
+			children = (
+				DBA1F3F127B6E04A0004B00D /* MobileAlertStateContext.swift */,
+				DBA1F3FA27B6E1130004B00D /* Silent.swift */,
+				DBA1F3F327B6E06B0004B00D /* MobileAlertState.swift */,
+				DBA1F3F627B6E09C0004B00D /* Sound.swift */,
+				DBA1F3F827B6E0F30004B00D /* Vibration.swift */,
+				DBA1F3FC27B6E1B80004B00D /* MobileAlarmStateExampleView.swift */,
+			);
+			path = AlarmExample;
+			sourceTree = "<group>";
+		};
 		DBBFA27F27A2F00F005ED844 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
@@ -447,6 +480,7 @@
 		DBBFA28627A2F308005ED844 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				DBA1F3EF27B6E0260004B00D /* State */,
 				DBE27B5027B1A4E8000DA6B5 /* Observer */,
 				DB5F52F327A738C6003BD940 /* Memento */,
 				DB5F52E527A69B1A003BD940 /* Mediator */,
@@ -593,6 +627,7 @@
 			files = (
 				DB7AAF9A27989030008ECDAD /* StrengthExerciseSummaryFactory.swift in Sources */,
 				DB52F842278F74200036C620 /* ForeignEarn.swift in Sources */,
+				DBA1F3FB27B6E1130004B00D /* Silent.swift in Sources */,
 				DB5F52FE27A73AB3003BD940 /* ExampleArticleMementoView.swift in Sources */,
 				DB18516F27A5BABF00472A3E /* CreditCardIterator.swift in Sources */,
 				DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */,
@@ -605,6 +640,7 @@
 				DB7AAFB927989FB0008ECDAD /* PaymentAFMethodClient.swift in Sources */,
 				DB7AAFB527989E23008ECDAD /* PaymentInAdvanceCardFactory.swift in Sources */,
 				DBBFA28427A2F113005ED844 /* CardSingletonExampleView.swift in Sources */,
+				DBA1F3F227B6E04A0004B00D /* MobileAlertStateContext.swift in Sources */,
 				DBE27B5327B1A51F000DA6B5 /* TrafficLight.swift in Sources */,
 				DB5F52EA27A69BF2003BD940 /* Colleague.swift in Sources */,
 				DBE27B5727B1A586000DA6B5 /* Subject.swift in Sources */,
@@ -639,13 +675,16 @@
 				DB7AAF9C2798912B008ECDAD /* CardioExerciseSummaryFactory.swift in Sources */,
 				DBFA0BD127A45D6800FD69A6 /* Command.swift in Sources */,
 				DB18517127A5BD3C00472A3E /* IteratorExampleCreditCardCollectionsView.swift in Sources */,
+				DBA1F3F727B6E09C0004B00D /* Sound.swift in Sources */,
 				DB5F52F227A69DDE003BD940 /* ChatExampleMediatorExampleView.swift in Sources */,
+				DBA1F3F427B6E06B0004B00D /* MobileAlertState.swift in Sources */,
 				DB52F838278F638E0036C620 /* EarnProtocol.swift in Sources */,
 				DBE27B5527B1A55E000DA6B5 /* Observer.swift in Sources */,
 				DB7AAF9827988F98008ECDAD /* ExerciseSummaryFactoryProtocol.swift in Sources */,
 				DBFA0BDB27A45FD600FD69A6 /* ExampleBankCommandExampleView.swift in Sources */,
 				DB7AAFBB2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift in Sources */,
 				DBE27B6027B1A89E000DA6B5 /* ObserverPatternExampleSemaphore.swift in Sources */,
+				DBA1F3FD27B6E1B80004B00D /* MobileAlarmStateExampleView.swift in Sources */,
 				DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */,
 				DBFA0BD727A45F0600FD69A6 /* CreditCardDeactivateCommand.swift in Sources */,
 				DBFA0BD527A45E6B00FD69A6 /* CredictCardActivateCommand.swift in Sources */,
@@ -660,6 +699,7 @@
 				DBE27B5E27B1A81E000DA6B5 /* Pedestrian.swift in Sources */,
 				DB701FC22796154C001203A1 /* ExerciseSummaryFactory.swift in Sources */,
 				DB7AAFB327989DAE008ECDAD /* AbstractFactory.swift in Sources */,
+				DBA1F3F927B6E0F30004B00D /* Vibration.swift in Sources */,
 				DB7AAFB727989F28008ECDAD /* MontlyGoogleFactory.swift in Sources */,
 				DB5F52E827A69BBD003BD940 /* Mediator.swift in Sources */,
 				DBBFA28E27A2F5EA005ED844 /* PlatiniumHandler.swift in Sources */,
