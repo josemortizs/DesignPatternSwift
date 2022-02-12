@@ -78,6 +78,11 @@
 		DBBFA29027A2F63A005ED844 /* BlackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28F27A2F63A005ED844 /* BlackHandler.swift */; };
 		DBBFA29227A2F687005ED844 /* BankHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA29127A2F687005ED844 /* BankHandler.swift */; };
 		DBBFA29427A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA29327A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift */; };
+		DBC1E96E27B8204C0000B1CF /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC1E96D27B8204C0000B1CF /* Expression.swift */; };
+		DBC1E97027B820880000B1CF /* AndExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC1E96F27B820880000B1CF /* AndExpression.swift */; };
+		DBC1E97227B820FC0000B1CF /* OrExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC1E97127B820FC0000B1CF /* OrExpression.swift */; };
+		DBC1E97427B821350000B1CF /* TerminalExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC1E97327B821350000B1CF /* TerminalExpression.swift */; };
+		DBC1E97627B821FA0000B1CF /* InterpreterPatternExpressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC1E97527B821FA0000B1CF /* InterpreterPatternExpressionView.swift */; };
 		DBE27B5327B1A51F000DA6B5 /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5227B1A51F000DA6B5 /* TrafficLight.swift */; };
 		DBE27B5527B1A55E000DA6B5 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5427B1A55E000DA6B5 /* Observer.swift */; };
 		DBE27B5727B1A586000DA6B5 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE27B5627B1A586000DA6B5 /* Subject.swift */; };
@@ -166,6 +171,11 @@
 		DBBFA28F27A2F63A005ED844 /* BlackHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHandler.swift; sourceTree = "<group>"; };
 		DBBFA29127A2F687005ED844 /* BankHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankHandler.swift; sourceTree = "<group>"; };
 		DBBFA29327A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBankChaingOfResponsabilityView.swift; sourceTree = "<group>"; };
+		DBC1E96D27B8204C0000B1CF /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		DBC1E96F27B820880000B1CF /* AndExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndExpression.swift; sourceTree = "<group>"; };
+		DBC1E97127B820FC0000B1CF /* OrExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrExpression.swift; sourceTree = "<group>"; };
+		DBC1E97327B821350000B1CF /* TerminalExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalExpression.swift; sourceTree = "<group>"; };
+		DBC1E97527B821FA0000B1CF /* InterpreterPatternExpressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterPatternExpressionView.swift; sourceTree = "<group>"; };
 		DBE27B5227B1A51F000DA6B5 /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
 		DBE27B5427B1A55E000DA6B5 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		DBE27B5627B1A586000DA6B5 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
@@ -480,6 +490,7 @@
 		DBBFA28627A2F308005ED844 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				DBC1E96B27B81F980000B1CF /* Interpreter */,
 				DBA1F3EF27B6E0260004B00D /* State */,
 				DBE27B5027B1A4E8000DA6B5 /* Observer */,
 				DB5F52F327A738C6003BD940 /* Memento */,
@@ -510,6 +521,26 @@
 				DBBFA29327A2F832005ED844 /* ExampleBankChaingOfResponsabilityView.swift */,
 			);
 			path = ExampleApprovedLoan;
+			sourceTree = "<group>";
+		};
+		DBC1E96B27B81F980000B1CF /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				DBC1E96C27B820350000B1CF /* ExampleExpression */,
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		DBC1E96C27B820350000B1CF /* ExampleExpression */ = {
+			isa = PBXGroup;
+			children = (
+				DBC1E96D27B8204C0000B1CF /* Expression.swift */,
+				DBC1E96F27B820880000B1CF /* AndExpression.swift */,
+				DBC1E97127B820FC0000B1CF /* OrExpression.swift */,
+				DBC1E97327B821350000B1CF /* TerminalExpression.swift */,
+				DBC1E97527B821FA0000B1CF /* InterpreterPatternExpressionView.swift */,
+			);
+			path = ExampleExpression;
 			sourceTree = "<group>";
 		};
 		DBE27B5027B1A4E8000DA6B5 /* Observer */ = {
@@ -652,11 +683,14 @@
 				DB18516B27A5B79F00472A3E /* CreditCard.swift in Sources */,
 				DB5F52F827A7397D003BD940 /* ArticleOriginator.swift in Sources */,
 				DB52F82B278F5AC80036C620 /* CardPayment.swift in Sources */,
+				DBC1E97427B821350000B1CF /* TerminalExpression.swift in Sources */,
+				DBC1E96E27B8204C0000B1CF /* Expression.swift in Sources */,
 				DB52F834278F5F620036C620 /* PaymentExampleFactoryMethodView.swift in Sources */,
 				DB701FB827960FB9001203A1 /* Exercise.swift in Sources */,
 				DB701FBA2796114D001203A1 /* ExerciseSummary.swift in Sources */,
 				DB52F840278F68710036C620 /* EarnExampleFactoryMethodView.swift in Sources */,
 				DBFA0BD927A45F6100FD69A6 /* CreditCardInvoker.swift in Sources */,
+				DBC1E97027B820880000B1CF /* AndExpression.swift in Sources */,
 				DB5F52F027A69CFE003BD940 /* ConcreteMediator.swift in Sources */,
 				DB5F52EE27A69CCA003BD940 /* ConcreteColleague2.swift in Sources */,
 				DB701FBC27961300001203A1 /* StrengthExerciseSummary.swift in Sources */,
@@ -669,6 +703,7 @@
 				DB7AAFAF27989ACF008ECDAD /* MontlyMethodAF.swift in Sources */,
 				DB52F83A278F64A30036C620 /* LocalEarn.swift in Sources */,
 				DB52F827278F5A100036C620 /* Payment.swift in Sources */,
+				DBC1E97227B820FC0000B1CF /* OrExpression.swift in Sources */,
 				DB7AAFA927989908008ECDAD /* GooglePaymentAF.swift in Sources */,
 				DBBFA28C27A2F4F3005ED844 /* GoldHandler.swift in Sources */,
 				DBE27B5927B1A65B000DA6B5 /* MessagePublisher.swift in Sources */,
@@ -689,6 +724,7 @@
 				DBFA0BD727A45F0600FD69A6 /* CreditCardDeactivateCommand.swift in Sources */,
 				DBFA0BD527A45E6B00FD69A6 /* CredictCardActivateCommand.swift in Sources */,
 				DB5F52F627A73942003BD940 /* ArticleMemento.swift in Sources */,
+				DBC1E97627B821FA0000B1CF /* InterpreterPatternExpressionView.swift in Sources */,
 				DB7AAFA72798987A008ECDAD /* CardPaymentAF.swift in Sources */,
 				DBBFA28227A2F090005ED844 /* CardSingleton.swift in Sources */,
 				DBBFA29227A2F687005ED844 /* BankHandler.swift in Sources */,

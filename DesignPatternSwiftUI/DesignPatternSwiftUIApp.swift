@@ -25,7 +25,8 @@ struct DesignPatternSwiftUIApp: App {
             //ChatExampleMediatorExampleView()
             //ExampleArticleMementoView()
             //ObserverPatternExampleSemaphore()
-            MobileAlarmStateExampleView()
+            //MobileAlarmStateExampleView()
+            InterpreterPatternExpressionView()
         }
     }
 }
