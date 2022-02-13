@@ -14,6 +14,11 @@
 		DB322896279F4C5E00A97966 /* PrototypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB322895279F4C5E00A97966 /* PrototypeCard.swift */; };
 		DB322898279F4D4300A97966 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB322897279F4D4300A97966 /* VisaCard.swift */; };
 		DB32289A279F4E6800A97966 /* PrototypeCardExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB322899279F4E6800A97966 /* PrototypeCardExampleView.swift */; };
+		DB4CDA5D27B913EF002E4300 /* StrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA5C27B913EF002E4300 /* StrategyTextFormatter.swift */; };
+		DB4CDA5F27B91424002E4300 /* CapitalStrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA5E27B91424002E4300 /* CapitalStrategyTextFormatter.swift */; };
+		DB4CDA6127B91488002E4300 /* LowerStrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA6027B91488002E4300 /* LowerStrategyTextFormatter.swift */; };
+		DB4CDA6327B914CC002E4300 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA6227B914CC002E4300 /* Context.swift */; };
+		DB4CDA6527B9153F002E4300 /* ExampleUpperUnderSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA6427B9153F002E4300 /* ExampleUpperUnderSideView.swift */; };
 		DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F816278F58BD0036C620 /* DesignPatternSwiftUIApp.swift */; };
 		DB52F81B278F58BE0036C620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB52F81A278F58BE0036C620 /* Assets.xcassets */; };
 		DB52F81E278F58BE0036C620 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB52F81D278F58BE0036C620 /* Preview Assets.xcassets */; };
@@ -106,6 +111,11 @@
 		DB322895279F4C5E00A97966 /* PrototypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCard.swift; sourceTree = "<group>"; };
 		DB322897279F4D4300A97966 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
 		DB322899279F4E6800A97966 /* PrototypeCardExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCardExampleView.swift; sourceTree = "<group>"; };
+		DB4CDA5C27B913EF002E4300 /* StrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTextFormatter.swift; sourceTree = "<group>"; };
+		DB4CDA5E27B91424002E4300 /* CapitalStrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalStrategyTextFormatter.swift; sourceTree = "<group>"; };
+		DB4CDA6027B91488002E4300 /* LowerStrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerStrategyTextFormatter.swift; sourceTree = "<group>"; };
+		DB4CDA6227B914CC002E4300 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		DB4CDA6427B9153F002E4300 /* ExampleUpperUnderSideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUpperUnderSideView.swift; sourceTree = "<group>"; };
 		DB52F813278F58BD0036C620 /* DesignPatternSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatternSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB52F816278F58BD0036C620 /* DesignPatternSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternSwiftUIApp.swift; sourceTree = "<group>"; };
 		DB52F81A278F58BE0036C620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -237,6 +247,26 @@
 				DB322899279F4E6800A97966 /* PrototypeCardExampleView.swift */,
 			);
 			path = CardExample;
+			sourceTree = "<group>";
+		};
+		DB4CDA5A27B91380002E4300 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				DB4CDA5B27B913B6002E4300 /* ExampleUpperUnderSide */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		DB4CDA5B27B913B6002E4300 /* ExampleUpperUnderSide */ = {
+			isa = PBXGroup;
+			children = (
+				DB4CDA5C27B913EF002E4300 /* StrategyTextFormatter.swift */,
+				DB4CDA5E27B91424002E4300 /* CapitalStrategyTextFormatter.swift */,
+				DB4CDA6027B91488002E4300 /* LowerStrategyTextFormatter.swift */,
+				DB4CDA6227B914CC002E4300 /* Context.swift */,
+				DB4CDA6427B9153F002E4300 /* ExampleUpperUnderSideView.swift */,
+			);
+			path = ExampleUpperUnderSide;
 			sourceTree = "<group>";
 		};
 		DB52F80A278F58BD0036C620 = {
@@ -490,6 +520,7 @@
 		DBBFA28627A2F308005ED844 /* Behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				DB4CDA5A27B91380002E4300 /* Strategy */,
 				DBC1E96B27B81F980000B1CF /* Interpreter */,
 				DBA1F3EF27B6E0260004B00D /* State */,
 				DBE27B5027B1A4E8000DA6B5 /* Observer */,
@@ -658,11 +689,14 @@
 			files = (
 				DB7AAF9A27989030008ECDAD /* StrengthExerciseSummaryFactory.swift in Sources */,
 				DB52F842278F74200036C620 /* ForeignEarn.swift in Sources */,
+				DB4CDA5F27B91424002E4300 /* CapitalStrategyTextFormatter.swift in Sources */,
+				DB4CDA6327B914CC002E4300 /* Context.swift in Sources */,
 				DBA1F3FB27B6E1130004B00D /* Silent.swift in Sources */,
 				DB5F52FE27A73AB3003BD940 /* ExampleArticleMementoView.swift in Sources */,
 				DB18516F27A5BABF00472A3E /* CreditCardIterator.swift in Sources */,
 				DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */,
 				DB701FC4279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift in Sources */,
+				DB4CDA6127B91488002E4300 /* LowerStrategyTextFormatter.swift in Sources */,
 				DB701FBE27961462001203A1 /* CardioExerciseSummary.swift in Sources */,
 				DBBFA29027A2F63A005ED844 /* BlackHandler.swift in Sources */,
 				DB7AAFB127989B70008ECDAD /* PaymentInAdvanceMethodAF.swift in Sources */,
@@ -706,8 +740,10 @@
 				DBC1E97227B820FC0000B1CF /* OrExpression.swift in Sources */,
 				DB7AAFA927989908008ECDAD /* GooglePaymentAF.swift in Sources */,
 				DBBFA28C27A2F4F3005ED844 /* GoldHandler.swift in Sources */,
+				DB4CDA5D27B913EF002E4300 /* StrategyTextFormatter.swift in Sources */,
 				DBE27B5927B1A65B000DA6B5 /* MessagePublisher.swift in Sources */,
 				DB7AAF9C2798912B008ECDAD /* CardioExerciseSummaryFactory.swift in Sources */,
+				DB4CDA6527B9153F002E4300 /* ExampleUpperUnderSideView.swift in Sources */,
 				DBFA0BD127A45D6800FD69A6 /* Command.swift in Sources */,
 				DB18517127A5BD3C00472A3E /* IteratorExampleCreditCardCollectionsView.swift in Sources */,
 				DBA1F3F727B6E09C0004B00D /* Sound.swift in Sources */,
