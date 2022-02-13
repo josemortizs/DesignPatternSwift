@@ -27,7 +27,9 @@ struct DesignPatternSwiftUIApp: App {
             //ObserverPatternExampleSemaphore()
             //MobileAlarmStateExampleView()
             //InterpreterPatternExpressionView()
-            ExampleUpperUnderSideView()
+            //ExampleUpperUnderSideView()
+            //TemplatePatternExamplePaymentView()
+            VisitorExampleOfferView()
         }
     }
 }
