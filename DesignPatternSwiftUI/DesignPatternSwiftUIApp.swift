@@ -30,7 +30,8 @@ struct DesignPatternSwiftUIApp: App {
             //ExampleUpperUnderSideView()
             //TemplatePatternExamplePaymentView()
             //VisitorExampleOfferView()
-            ExampleAdapterPatternSum()
+            //ExampleAdapterPatternSum()
+            ExampleBridgeBankView()
         }
     }
 }

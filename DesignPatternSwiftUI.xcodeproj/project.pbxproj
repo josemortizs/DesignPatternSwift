@@ -18,6 +18,12 @@
 		DB33EA7927BAF51B00254E18 /* OperationAdaptee.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA7827BAF51B00254E18 /* OperationAdaptee.swift */; };
 		DB33EA7B27BAF58200254E18 /* OperationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA7A27BAF58200254E18 /* OperationAdapter.swift */; };
 		DB33EA7D27BAF60200254E18 /* ExampleAdapterPatternSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA7C27BAF60200254E18 /* ExampleAdapterPatternSum.swift */; };
+		DB33EA8127BAF87B00254E18 /* CreditCardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8027BAF87B00254E18 /* CreditCardProtocol.swift */; };
+		DB33EA8327BAF8AD00254E18 /* SecureCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8227BAF8AD00254E18 /* SecureCreditCard.swift */; };
+		DB33EA8527BAF8FD00254E18 /* UnsecureCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8427BAF8FD00254E18 /* UnsecureCreditCard.swift */; };
+		DB33EA8727BAF93D00254E18 /* CreditCardB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8627BAF93D00254E18 /* CreditCardB.swift */; };
+		DB33EA8927BAF98C00254E18 /* ClassicCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8827BAF98C00254E18 /* ClassicCreditCard.swift */; };
+		DB33EA8B27BAFA0900254E18 /* ExampleBridgeBankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8A27BAFA0900254E18 /* ExampleBridgeBankView.swift */; };
 		DB4CDA5D27B913EF002E4300 /* StrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA5C27B913EF002E4300 /* StrategyTextFormatter.swift */; };
 		DB4CDA5F27B91424002E4300 /* CapitalStrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA5E27B91424002E4300 /* CapitalStrategyTextFormatter.swift */; };
 		DB4CDA6127B91488002E4300 /* LowerStrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA6027B91488002E4300 /* LowerStrategyTextFormatter.swift */; };
@@ -130,6 +136,12 @@
 		DB33EA7827BAF51B00254E18 /* OperationAdaptee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationAdaptee.swift; sourceTree = "<group>"; };
 		DB33EA7A27BAF58200254E18 /* OperationAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationAdapter.swift; sourceTree = "<group>"; };
 		DB33EA7C27BAF60200254E18 /* ExampleAdapterPatternSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleAdapterPatternSum.swift; sourceTree = "<group>"; };
+		DB33EA8027BAF87B00254E18 /* CreditCardProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardProtocol.swift; sourceTree = "<group>"; };
+		DB33EA8227BAF8AD00254E18 /* SecureCreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureCreditCard.swift; sourceTree = "<group>"; };
+		DB33EA8427BAF8FD00254E18 /* UnsecureCreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsecureCreditCard.swift; sourceTree = "<group>"; };
+		DB33EA8627BAF93D00254E18 /* CreditCardB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardB.swift; sourceTree = "<group>"; };
+		DB33EA8827BAF98C00254E18 /* ClassicCreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicCreditCard.swift; sourceTree = "<group>"; };
+		DB33EA8A27BAFA0900254E18 /* ExampleBridgeBankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBridgeBankView.swift; sourceTree = "<group>"; };
 		DB4CDA5C27B913EF002E4300 /* StrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTextFormatter.swift; sourceTree = "<group>"; };
 		DB4CDA5E27B91424002E4300 /* CapitalStrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalStrategyTextFormatter.swift; sourceTree = "<group>"; };
 		DB4CDA6027B91488002E4300 /* LowerStrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerStrategyTextFormatter.swift; sourceTree = "<group>"; };
@@ -282,6 +294,7 @@
 		DB33EA7327BAF4B200254E18 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				DB33EA7E27BAF80500254E18 /* Bridge */,
 				DB33EA7427BAF4C700254E18 /* Adapter */,
 			);
 			path = Structural;
@@ -304,6 +317,27 @@
 				DB33EA7C27BAF60200254E18 /* ExampleAdapterPatternSum.swift */,
 			);
 			path = ExampleSum;
+			sourceTree = "<group>";
+		};
+		DB33EA7E27BAF80500254E18 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				DB33EA7F27BAF85400254E18 /* ExampleBank */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		DB33EA7F27BAF85400254E18 /* ExampleBank */ = {
+			isa = PBXGroup;
+			children = (
+				DB33EA8027BAF87B00254E18 /* CreditCardProtocol.swift */,
+				DB33EA8227BAF8AD00254E18 /* SecureCreditCard.swift */,
+				DB33EA8427BAF8FD00254E18 /* UnsecureCreditCard.swift */,
+				DB33EA8627BAF93D00254E18 /* CreditCardB.swift */,
+				DB33EA8827BAF98C00254E18 /* ClassicCreditCard.swift */,
+				DB33EA8A27BAFA0900254E18 /* ExampleBridgeBankView.swift */,
+			);
+			path = ExampleBank;
 			sourceTree = "<group>";
 		};
 		DB4CDA5A27B91380002E4300 /* Strategy */ = {
@@ -798,6 +832,7 @@
 				DB18516F27A5BABF00472A3E /* CreditCardIterator.swift in Sources */,
 				DB4CDA7727B91E10002E4300 /* GasolineOffer.swift in Sources */,
 				DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */,
+				DB33EA8527BAF8FD00254E18 /* UnsecureCreditCard.swift in Sources */,
 				DB701FC4279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift in Sources */,
 				DB4CDA6127B91488002E4300 /* LowerStrategyTextFormatter.swift in Sources */,
 				DB701FBE27961462001203A1 /* CardioExerciseSummary.swift in Sources */,
@@ -830,6 +865,7 @@
 				DB701FB827960FB9001203A1 /* Exercise.swift in Sources */,
 				DB701FBA2796114D001203A1 /* ExerciseSummary.swift in Sources */,
 				DB52F840278F68710036C620 /* EarnExampleFactoryMethodView.swift in Sources */,
+				DB33EA8127BAF87B00254E18 /* CreditCardProtocol.swift in Sources */,
 				DB4CDA7B27B91F2D002E4300 /* ClassicCreditCardVisitor.swift in Sources */,
 				DBFA0BD927A45F6100FD69A6 /* CreditCardInvoker.swift in Sources */,
 				DBC1E97027B820880000B1CF /* AndExpression.swift in Sources */,
@@ -844,6 +880,7 @@
 				DB18516D27A5B7E700472A3E /* CreditCardCollection.swift in Sources */,
 				DB52F83C278F66920036C620 /* EarnFactoryProtocol.swift in Sources */,
 				DB7AAFAF27989ACF008ECDAD /* MontlyMethodAF.swift in Sources */,
+				DB33EA8B27BAFA0900254E18 /* ExampleBridgeBankView.swift in Sources */,
 				DB52F83A278F64A30036C620 /* LocalEarn.swift in Sources */,
 				DB52F827278F5A100036C620 /* Payment.swift in Sources */,
 				DBC1E97227B820FC0000B1CF /* OrExpression.swift in Sources */,
@@ -852,6 +889,7 @@
 				DB4CDA5D27B913EF002E4300 /* StrategyTextFormatter.swift in Sources */,
 				DBE27B5927B1A65B000DA6B5 /* MessagePublisher.swift in Sources */,
 				DB7AAF9C2798912B008ECDAD /* CardioExerciseSummaryFactory.swift in Sources */,
+				DB33EA8727BAF93D00254E18 /* CreditCardB.swift in Sources */,
 				DB4CDA6527B9153F002E4300 /* ExampleUpperUnderSideView.swift in Sources */,
 				DBFA0BD127A45D6800FD69A6 /* Command.swift in Sources */,
 				DB33EA7727BAF4EE00254E18 /* OperationTarget.swift in Sources */,
@@ -880,6 +918,7 @@
 				DBBFA29227A2F687005ED844 /* BankHandler.swift in Sources */,
 				DB5F52EC27A69C4C003BD940 /* ConcreteColleague1.swift in Sources */,
 				DB7AAFAD27989A52008ECDAD /* MethodAF.swift in Sources */,
+				DB33EA8327BAF8AD00254E18 /* SecureCreditCard.swift in Sources */,
 				DB59B7782799F09F004DC75C /* BuilderExampleView.swift in Sources */,
 				DBE27B5C27B1A79D000DA6B5 /* Car.swift in Sources */,
 				DB4CDA7327B91D8B002E4300 /* CreditCardVisitor.swift in Sources */,
@@ -889,6 +928,7 @@
 				DBA1F3F927B6E0F30004B00D /* Vibration.swift in Sources */,
 				DB7AAFB727989F28008ECDAD /* MontlyGoogleFactory.swift in Sources */,
 				DB5F52E827A69BBD003BD940 /* Mediator.swift in Sources */,
+				DB33EA8927BAF98C00254E18 /* ClassicCreditCard.swift in Sources */,
 				DBBFA28E27A2F5EA005ED844 /* PlatiniumHandler.swift in Sources */,
 				DB7AAFA5279897BD008ECDAD /* PaymentAF.swift in Sources */,
 				DBFA0BD327A45D9200FD69A6 /* CredictCardReceiver.swift in Sources */,
