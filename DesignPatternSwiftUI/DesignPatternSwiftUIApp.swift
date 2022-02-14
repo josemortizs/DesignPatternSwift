@@ -31,7 +31,8 @@ struct DesignPatternSwiftUIApp: App {
             //TemplatePatternExamplePaymentView()
             //VisitorExampleOfferView()
             //ExampleAdapterPatternSum()
-            ExampleBridgeBankView()
+            //ExampleBridgeBankView()
+            CompositePatternAccountExampleView()
         }
     }
 }

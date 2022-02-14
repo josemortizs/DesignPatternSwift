@@ -24,6 +24,11 @@
 		DB33EA8727BAF93D00254E18 /* CreditCardB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8627BAF93D00254E18 /* CreditCardB.swift */; };
 		DB33EA8927BAF98C00254E18 /* ClassicCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8827BAF98C00254E18 /* ClassicCreditCard.swift */; };
 		DB33EA8B27BAFA0900254E18 /* ExampleBridgeBankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8A27BAFA0900254E18 /* ExampleBridgeBankView.swift */; };
+		DB33EA8F27BAFBC400254E18 /* AccountComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA8E27BAFBC400254E18 /* AccountComponent.swift */; };
+		DB33EA9127BAFC0800254E18 /* SavingsAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA9027BAFC0800254E18 /* SavingsAccount.swift */; };
+		DB33EA9327BAFC4F00254E18 /* CurrentAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA9227BAFC4F00254E18 /* CurrentAccount.swift */; };
+		DB33EA9527BAFC8200254E18 /* AccountComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA9427BAFC8200254E18 /* AccountComposite.swift */; };
+		DB33EA9727BAFDE400254E18 /* CompositePatternAccountExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB33EA9627BAFDE400254E18 /* CompositePatternAccountExampleView.swift */; };
 		DB4CDA5D27B913EF002E4300 /* StrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA5C27B913EF002E4300 /* StrategyTextFormatter.swift */; };
 		DB4CDA5F27B91424002E4300 /* CapitalStrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA5E27B91424002E4300 /* CapitalStrategyTextFormatter.swift */; };
 		DB4CDA6127B91488002E4300 /* LowerStrategyTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4CDA6027B91488002E4300 /* LowerStrategyTextFormatter.swift */; };
@@ -142,6 +147,11 @@
 		DB33EA8627BAF93D00254E18 /* CreditCardB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardB.swift; sourceTree = "<group>"; };
 		DB33EA8827BAF98C00254E18 /* ClassicCreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicCreditCard.swift; sourceTree = "<group>"; };
 		DB33EA8A27BAFA0900254E18 /* ExampleBridgeBankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleBridgeBankView.swift; sourceTree = "<group>"; };
+		DB33EA8E27BAFBC400254E18 /* AccountComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountComponent.swift; sourceTree = "<group>"; };
+		DB33EA9027BAFC0800254E18 /* SavingsAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsAccount.swift; sourceTree = "<group>"; };
+		DB33EA9227BAFC4F00254E18 /* CurrentAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentAccount.swift; sourceTree = "<group>"; };
+		DB33EA9427BAFC8200254E18 /* AccountComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountComposite.swift; sourceTree = "<group>"; };
+		DB33EA9627BAFDE400254E18 /* CompositePatternAccountExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePatternAccountExampleView.swift; sourceTree = "<group>"; };
 		DB4CDA5C27B913EF002E4300 /* StrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyTextFormatter.swift; sourceTree = "<group>"; };
 		DB4CDA5E27B91424002E4300 /* CapitalStrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapitalStrategyTextFormatter.swift; sourceTree = "<group>"; };
 		DB4CDA6027B91488002E4300 /* LowerStrategyTextFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerStrategyTextFormatter.swift; sourceTree = "<group>"; };
@@ -294,6 +304,7 @@
 		DB33EA7327BAF4B200254E18 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				DB33EA8C27BAFB2D00254E18 /* Composite */,
 				DB33EA7E27BAF80500254E18 /* Bridge */,
 				DB33EA7427BAF4C700254E18 /* Adapter */,
 			);
@@ -338,6 +349,26 @@
 				DB33EA8A27BAFA0900254E18 /* ExampleBridgeBankView.swift */,
 			);
 			path = ExampleBank;
+			sourceTree = "<group>";
+		};
+		DB33EA8C27BAFB2D00254E18 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				DB33EA8D27BAFB3500254E18 /* ExampleAccount */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		DB33EA8D27BAFB3500254E18 /* ExampleAccount */ = {
+			isa = PBXGroup;
+			children = (
+				DB33EA8E27BAFBC400254E18 /* AccountComponent.swift */,
+				DB33EA9027BAFC0800254E18 /* SavingsAccount.swift */,
+				DB33EA9227BAFC4F00254E18 /* CurrentAccount.swift */,
+				DB33EA9427BAFC8200254E18 /* AccountComposite.swift */,
+				DB33EA9627BAFDE400254E18 /* CompositePatternAccountExampleView.swift */,
+			);
+			path = ExampleAccount;
 			sourceTree = "<group>";
 		};
 		DB4CDA5A27B91380002E4300 /* Strategy */ = {
@@ -853,6 +884,7 @@
 				DB4CDA7F27B9207A002E4300 /* VisitorExampleOfferView.swift in Sources */,
 				DB52F82D278F5B390036C620 /* PaymentTypes.swift in Sources */,
 				DB7AAF9E27989190008ECDAD /* PureExercisesExampleFactoryMethodView.swift in Sources */,
+				DB33EA9327BAFC4F00254E18 /* CurrentAccount.swift in Sources */,
 				DB33EA7D27BAF60200254E18 /* ExampleAdapterPatternSum.swift in Sources */,
 				DB18516B27A5B79F00472A3E /* CreditCard.swift in Sources */,
 				DB5F52F827A7397D003BD940 /* ArticleOriginator.swift in Sources */,
@@ -860,6 +892,7 @@
 				DB33EA7927BAF51B00254E18 /* OperationAdaptee.swift in Sources */,
 				DBC1E97427B821350000B1CF /* TerminalExpression.swift in Sources */,
 				DBC1E96E27B8204C0000B1CF /* Expression.swift in Sources */,
+				DB33EA9527BAFC8200254E18 /* AccountComposite.swift in Sources */,
 				DB52F834278F5F620036C620 /* PaymentExampleFactoryMethodView.swift in Sources */,
 				DB4CDA6B27B9175F002E4300 /* Paypal.swift in Sources */,
 				DB701FB827960FB9001203A1 /* Exercise.swift in Sources */,
@@ -899,6 +932,8 @@
 				DB5F52F227A69DDE003BD940 /* ChatExampleMediatorExampleView.swift in Sources */,
 				DBA1F3F427B6E06B0004B00D /* MobileAlertState.swift in Sources */,
 				DB4CDA6F27B91834002E4300 /* TemplatePatternExamplePaymentView.swift in Sources */,
+				DB33EA9127BAFC0800254E18 /* SavingsAccount.swift in Sources */,
+				DB33EA8F27BAFBC400254E18 /* AccountComponent.swift in Sources */,
 				DB52F838278F638E0036C620 /* EarnProtocol.swift in Sources */,
 				DB33EA7B27BAF58200254E18 /* OperationAdapter.swift in Sources */,
 				DBE27B5527B1A55E000DA6B5 /* Observer.swift in Sources */,
@@ -926,6 +961,7 @@
 				DB701FC22796154C001203A1 /* ExerciseSummaryFactory.swift in Sources */,
 				DB7AAFB327989DAE008ECDAD /* AbstractFactory.swift in Sources */,
 				DBA1F3F927B6E0F30004B00D /* Vibration.swift in Sources */,
+				DB33EA9727BAFDE400254E18 /* CompositePatternAccountExampleView.swift in Sources */,
 				DB7AAFB727989F28008ECDAD /* MontlyGoogleFactory.swift in Sources */,
 				DB5F52E827A69BBD003BD940 /* Mediator.swift in Sources */,
 				DB33EA8927BAF98C00254E18 /* ClassicCreditCard.swift in Sources */,
