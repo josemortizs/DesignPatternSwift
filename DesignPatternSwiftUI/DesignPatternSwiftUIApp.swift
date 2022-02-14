@@ -29,7 +29,8 @@ struct DesignPatternSwiftUIApp: App {
             //InterpreterPatternExpressionView()
             //ExampleUpperUnderSideView()
             //TemplatePatternExamplePaymentView()
-            VisitorExampleOfferView()
+            //VisitorExampleOfferView()
+            ExampleAdapterPatternSum()
         }
     }
 }
