@@ -119,6 +119,10 @@
 		DBA610DC27BC532600DACFC1 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610DB27BC532600DACFC1 /* Soldier.swift */; };
 		DBA610DE27BC535900DACFC1 /* EnemyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610DD27BC535900DACFC1 /* EnemyFactory.swift */; };
 		DBA610E027BC54D600DACFC1 /* FlyweightPatternExampleEnemiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610DF27BC54D600DACFC1 /* FlyweightPatternExampleEnemiesView.swift */; };
+		DBA610E427BC57A800DACFC1 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610E327BC57A800DACFC1 /* Internet.swift */; };
+		DBA610E627BC57D600DACFC1 /* AccessToInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610E527BC57D600DACFC1 /* AccessToInternet.swift */; };
+		DBA610E827BC581900DACFC1 /* ProxyInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610E727BC581900DACFC1 /* ProxyInternet.swift */; };
+		DBA610EA27BC58F100DACFC1 /* ProxyPatterExampleInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610E927BC58F100DACFC1 /* ProxyPatterExampleInternetView.swift */; };
 		DBBFA28227A2F090005ED844 /* CardSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28127A2F090005ED844 /* CardSingleton.swift */; };
 		DBBFA28427A2F113005ED844 /* CardSingletonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28327A2F113005ED844 /* CardSingletonExampleView.swift */; };
 		DBBFA28A27A2F48A005ED844 /* ApprovedLoanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28927A2F48A005ED844 /* ApprovedLoanHandler.swift */; };
@@ -261,6 +265,10 @@
 		DBA610DB27BC532600DACFC1 /* Soldier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
 		DBA610DD27BC535900DACFC1 /* EnemyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyFactory.swift; sourceTree = "<group>"; };
 		DBA610DF27BC54D600DACFC1 /* FlyweightPatternExampleEnemiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightPatternExampleEnemiesView.swift; sourceTree = "<group>"; };
+		DBA610E327BC57A800DACFC1 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
+		DBA610E527BC57D600DACFC1 /* AccessToInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToInternet.swift; sourceTree = "<group>"; };
+		DBA610E727BC581900DACFC1 /* ProxyInternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyInternet.swift; sourceTree = "<group>"; };
+		DBA610E927BC58F100DACFC1 /* ProxyPatterExampleInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyPatterExampleInternetView.swift; sourceTree = "<group>"; };
 		DBBFA28127A2F090005ED844 /* CardSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingleton.swift; sourceTree = "<group>"; };
 		DBBFA28327A2F113005ED844 /* CardSingletonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingletonExampleView.swift; sourceTree = "<group>"; };
 		DBBFA28927A2F48A005ED844 /* ApprovedLoanHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedLoanHandler.swift; sourceTree = "<group>"; };
@@ -340,6 +348,7 @@
 		DB33EA7327BAF4B200254E18 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				DBA610E127BC56F000DACFC1 /* Proxy */,
 				DBA610D527BC51B400DACFC1 /* Flyweight */,
 				DBA610C727BC4F1600DACFC1 /* Facade */,
 				DB33EA9827BB05B500254E18 /* Decorator */,
@@ -766,6 +775,25 @@
 			path = ExampleEnemy;
 			sourceTree = "<group>";
 		};
+		DBA610E127BC56F000DACFC1 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				DBA610E227BC56FB00DACFC1 /* ExampleInternet */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		DBA610E227BC56FB00DACFC1 /* ExampleInternet */ = {
+			isa = PBXGroup;
+			children = (
+				DBA610E327BC57A800DACFC1 /* Internet.swift */,
+				DBA610E527BC57D600DACFC1 /* AccessToInternet.swift */,
+				DBA610E727BC581900DACFC1 /* ProxyInternet.swift */,
+				DBA610E927BC58F100DACFC1 /* ProxyPatterExampleInternetView.swift */,
+			);
+			path = ExampleInternet;
+			sourceTree = "<group>";
+		};
 		DBBFA27F27A2F00F005ED844 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
@@ -1016,6 +1044,7 @@
 				DBFA0BD927A45F6100FD69A6 /* CreditCardInvoker.swift in Sources */,
 				DBC1E97027B820880000B1CF /* AndExpression.swift in Sources */,
 				DB5F52F027A69CFE003BD940 /* ConcreteMediator.swift in Sources */,
+				DBA610EA27BC58F100DACFC1 /* ProxyPatterExampleInternetView.swift in Sources */,
 				DB5F52EE27A69CCA003BD940 /* ConcreteColleague2.swift in Sources */,
 				DB701FBC27961300001203A1 /* StrengthExerciseSummary.swift in Sources */,
 				DB701FC0279614F4001203A1 /* ExerciseSummaryTypes.swift in Sources */,
@@ -1028,6 +1057,7 @@
 				DB7AAFAF27989ACF008ECDAD /* MontlyMethodAF.swift in Sources */,
 				DB33EA8B27BAFA0900254E18 /* ExampleBridgeBankView.swift in Sources */,
 				DB52F83A278F64A30036C620 /* LocalEarn.swift in Sources */,
+				DBA610E427BC57A800DACFC1 /* Internet.swift in Sources */,
 				DB52F827278F5A100036C620 /* Payment.swift in Sources */,
 				DB33EA9D27BB067B00254E18 /* BlackCreditComponent.swift in Sources */,
 				DBC1E97227B820FC0000B1CF /* OrExpression.swift in Sources */,
@@ -1065,7 +1095,9 @@
 				DBA610DA27BC529F00DACFC1 /* Detective.swift in Sources */,
 				DB5F52F627A73942003BD940 /* ArticleMemento.swift in Sources */,
 				DB33EAA527BB07D900254E18 /* SecureDecorator.swift in Sources */,
+				DBA610E627BC57D600DACFC1 /* AccessToInternet.swift in Sources */,
 				DBC1E97627B821FA0000B1CF /* InterpreterPatternExpressionView.swift in Sources */,
+				DBA610E827BC581900DACFC1 /* ProxyInternet.swift in Sources */,
 				DB7AAFA72798987A008ECDAD /* CardPaymentAF.swift in Sources */,
 				DB4CDA7527B91D97002E4300 /* OfferElement.swift in Sources */,
 				DBBFA28227A2F090005ED844 /* CardSingleton.swift in Sources */,
