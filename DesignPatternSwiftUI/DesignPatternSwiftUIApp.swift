@@ -33,7 +33,8 @@ struct DesignPatternSwiftUIApp: App {
             //ExampleAdapterPatternSum()
             //ExampleBridgeBankView()
             //CompositePatternAccountExampleView()
-            DecoratorPatternExampleCardsView()
+            //DecoratorPatternExampleCardsView()
+            FacadePatternExampleCreditCardsView()
         }
     }
 }
