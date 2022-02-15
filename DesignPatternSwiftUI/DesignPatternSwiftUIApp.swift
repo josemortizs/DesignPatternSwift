@@ -34,7 +34,8 @@ struct DesignPatternSwiftUIApp: App {
             //ExampleBridgeBankView()
             //CompositePatternAccountExampleView()
             //DecoratorPatternExampleCardsView()
-            FacadePatternExampleCreditCardsView()
+            //FacadePatternExampleCreditCardsView()
+            FlyweightPatternExampleEnemiesView()
         }
     }
 }

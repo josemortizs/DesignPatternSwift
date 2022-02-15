@@ -114,6 +114,11 @@
 		DBA610D027BC506A00DACFC1 /* SilverModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610CF27BC506A00DACFC1 /* SilverModule.swift */; };
 		DBA610D227BC508E00DACFC1 /* CreditMarketFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610D127BC508E00DACFC1 /* CreditMarketFacade.swift */; };
 		DBA610D427BC511700DACFC1 /* FacadePatternExampleCreditCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610D327BC511700DACFC1 /* FacadePatternExampleCreditCardsView.swift */; };
+		DBA610D827BC526900DACFC1 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610D727BC526900DACFC1 /* Enemy.swift */; };
+		DBA610DA27BC529F00DACFC1 /* Detective.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610D927BC529F00DACFC1 /* Detective.swift */; };
+		DBA610DC27BC532600DACFC1 /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610DB27BC532600DACFC1 /* Soldier.swift */; };
+		DBA610DE27BC535900DACFC1 /* EnemyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610DD27BC535900DACFC1 /* EnemyFactory.swift */; };
+		DBA610E027BC54D600DACFC1 /* FlyweightPatternExampleEnemiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA610DF27BC54D600DACFC1 /* FlyweightPatternExampleEnemiesView.swift */; };
 		DBBFA28227A2F090005ED844 /* CardSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28127A2F090005ED844 /* CardSingleton.swift */; };
 		DBBFA28427A2F113005ED844 /* CardSingletonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28327A2F113005ED844 /* CardSingletonExampleView.swift */; };
 		DBBFA28A27A2F48A005ED844 /* ApprovedLoanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBFA28927A2F48A005ED844 /* ApprovedLoanHandler.swift */; };
@@ -251,6 +256,11 @@
 		DBA610CF27BC506A00DACFC1 /* SilverModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverModule.swift; sourceTree = "<group>"; };
 		DBA610D127BC508E00DACFC1 /* CreditMarketFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditMarketFacade.swift; sourceTree = "<group>"; };
 		DBA610D327BC511700DACFC1 /* FacadePatternExampleCreditCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadePatternExampleCreditCardsView.swift; sourceTree = "<group>"; };
+		DBA610D727BC526900DACFC1 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		DBA610D927BC529F00DACFC1 /* Detective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detective.swift; sourceTree = "<group>"; };
+		DBA610DB27BC532600DACFC1 /* Soldier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
+		DBA610DD27BC535900DACFC1 /* EnemyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyFactory.swift; sourceTree = "<group>"; };
+		DBA610DF27BC54D600DACFC1 /* FlyweightPatternExampleEnemiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightPatternExampleEnemiesView.swift; sourceTree = "<group>"; };
 		DBBFA28127A2F090005ED844 /* CardSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingleton.swift; sourceTree = "<group>"; };
 		DBBFA28327A2F113005ED844 /* CardSingletonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingletonExampleView.swift; sourceTree = "<group>"; };
 		DBBFA28927A2F48A005ED844 /* ApprovedLoanHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedLoanHandler.swift; sourceTree = "<group>"; };
@@ -330,6 +340,7 @@
 		DB33EA7327BAF4B200254E18 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				DBA610D527BC51B400DACFC1 /* Flyweight */,
 				DBA610C727BC4F1600DACFC1 /* Facade */,
 				DB33EA9827BB05B500254E18 /* Decorator */,
 				DB33EA8C27BAFB2D00254E18 /* Composite */,
@@ -735,6 +746,26 @@
 			path = ExampleCreditCards;
 			sourceTree = "<group>";
 		};
+		DBA610D527BC51B400DACFC1 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				DBA610D627BC51C000DACFC1 /* ExampleEnemy */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		DBA610D627BC51C000DACFC1 /* ExampleEnemy */ = {
+			isa = PBXGroup;
+			children = (
+				DBA610D727BC526900DACFC1 /* Enemy.swift */,
+				DBA610D927BC529F00DACFC1 /* Detective.swift */,
+				DBA610DB27BC532600DACFC1 /* Soldier.swift */,
+				DBA610DD27BC535900DACFC1 /* EnemyFactory.swift */,
+				DBA610DF27BC54D600DACFC1 /* FlyweightPatternExampleEnemiesView.swift */,
+			);
+			path = ExampleEnemy;
+			sourceTree = "<group>";
+		};
 		DBBFA27F27A2F00F005ED844 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
@@ -941,12 +972,14 @@
 				DB701FBE27961462001203A1 /* CardioExerciseSummary.swift in Sources */,
 				DBBFA29027A2F63A005ED844 /* BlackHandler.swift in Sources */,
 				DB7AAFB127989B70008ECDAD /* PaymentInAdvanceMethodAF.swift in Sources */,
+				DBA610E027BC54D600DACFC1 /* FlyweightPatternExampleEnemiesView.swift in Sources */,
 				DB322898279F4D4300A97966 /* VisaCard.swift in Sources */,
 				DB32289A279F4E6800A97966 /* PrototypeCardExampleView.swift in Sources */,
 				DB7AAFB927989FB0008ECDAD /* PaymentAFMethodClient.swift in Sources */,
 				DB7AAFB527989E23008ECDAD /* PaymentInAdvanceCardFactory.swift in Sources */,
 				DBBFA28427A2F113005ED844 /* CardSingletonExampleView.swift in Sources */,
 				DBA1F3F227B6E04A0004B00D /* MobileAlertStateContext.swift in Sources */,
+				DBA610DE27BC535900DACFC1 /* EnemyFactory.swift in Sources */,
 				DBE27B5327B1A51F000DA6B5 /* TrafficLight.swift in Sources */,
 				DB5F52EA27A69BF2003BD940 /* Colleague.swift in Sources */,
 				DBE27B5727B1A586000DA6B5 /* Subject.swift in Sources */,
@@ -958,6 +991,7 @@
 				DBA610D027BC506A00DACFC1 /* SilverModule.swift in Sources */,
 				DB7AAF9E27989190008ECDAD /* PureExercisesExampleFactoryMethodView.swift in Sources */,
 				DB33EA9327BAFC4F00254E18 /* CurrentAccount.swift in Sources */,
+				DBA610DC27BC532600DACFC1 /* Soldier.swift in Sources */,
 				DB33EA7D27BAF60200254E18 /* ExampleAdapterPatternSum.swift in Sources */,
 				DB18516B27A5B79F00472A3E /* CreditCard.swift in Sources */,
 				DB5F52F827A7397D003BD940 /* ArticleOriginator.swift in Sources */,
@@ -1004,6 +1038,7 @@
 				DBE27B5927B1A65B000DA6B5 /* MessagePublisher.swift in Sources */,
 				DB7AAF9C2798912B008ECDAD /* CardioExerciseSummaryFactory.swift in Sources */,
 				DB33EA8727BAF93D00254E18 /* CreditCardB.swift in Sources */,
+				DBA610D827BC526900DACFC1 /* Enemy.swift in Sources */,
 				DB4CDA6527B9153F002E4300 /* ExampleUpperUnderSideView.swift in Sources */,
 				DBFA0BD127A45D6800FD69A6 /* Command.swift in Sources */,
 				DB33EA7727BAF4EE00254E18 /* OperationTarget.swift in Sources */,
@@ -1027,6 +1062,7 @@
 				DB52F817278F58BD0036C620 /* DesignPatternSwiftUIApp.swift in Sources */,
 				DBFA0BD727A45F0600FD69A6 /* CreditCardDeactivateCommand.swift in Sources */,
 				DBFA0BD527A45E6B00FD69A6 /* CredictCardActivateCommand.swift in Sources */,
+				DBA610DA27BC529F00DACFC1 /* Detective.swift in Sources */,
 				DB5F52F627A73942003BD940 /* ArticleMemento.swift in Sources */,
 				DB33EAA527BB07D900254E18 /* SecureDecorator.swift in Sources */,
 				DBC1E97627B821FA0000B1CF /* InterpreterPatternExpressionView.swift in Sources */,
