@@ -17,6 +17,7 @@ struct DesignPatternSwiftUIApp: App {
             //PureExercisesExampleFactoryMethodView()
             //AbstractFactoryPaymentMethodExampleView()
             //BuilderExampleView()
+            BuilderPatternExerciseExampleView()
             //PrototypeCardExampleView()
             //CardSingletonExampleView()
             //ExampleBankChaingOfResponsabilityView()
@@ -36,7 +37,7 @@ struct DesignPatternSwiftUIApp: App {
             //DecoratorPatternExampleCardsView()
             //FacadePatternExampleCreditCardsView()
             //FlyweightPatternExampleEnemiesView()
-            ProxyPatterExampleInternetView()
+            //ProxyPatterExampleInternetView()
         }
     }
 }

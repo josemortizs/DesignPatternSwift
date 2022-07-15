@@ -14,6 +14,8 @@ final class ExerciseSummaryFactory {
             return StrengthExerciseSummary()
         case .cardio:
             return CardioExerciseSummary()
+        case .sport:
+            return SportExerciseSummary()
         }
     }
 }

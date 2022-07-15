@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Exercise {
+struct Exercise: Identifiable {
     var id: Int
     var type: ExerciseTypes
     var name: String
@@ -22,4 +22,5 @@ struct Exercise {
 enum ExerciseTypes {
     case strength
     case cardio
+    case sport
 }

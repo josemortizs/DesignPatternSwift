@@ -29,6 +29,9 @@ struct PureExercisesExampleFactoryMethodView: View {
                             exerciseSummary = StrengthExerciseSummaryFactory().getExerciseSummaryFactory()
                         case .cardio:
                             exerciseSummary = CardioExerciseSummaryFactory().getExerciseSummaryFactory()
+                        case .sport:
+                            //TODO: Implementar factory correcta
+                            exerciseSummary = CardioExerciseSummaryFactory().getExerciseSummaryFactory()
                         }
                         
                         alertText = exerciseSummary.getExerciseSummary(exercise: exercise)

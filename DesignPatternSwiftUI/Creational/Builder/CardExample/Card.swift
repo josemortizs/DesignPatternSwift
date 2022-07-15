@@ -8,6 +8,7 @@
 import Foundation
 
 final class Card {
+    
     private var cardType: String = ""
     private var number: String = ""
     private var expired: Int = 0

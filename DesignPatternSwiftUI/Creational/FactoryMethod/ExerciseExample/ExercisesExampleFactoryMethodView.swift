@@ -11,7 +11,8 @@ struct ExercisesExampleFactoryMethodView: View {
     
     var exercises = [
         Exercise(id: 1, type: .cardio, name: "Bicicleta estática", series: 1, repetitions: 1, weight: 0, duration: 1200, rest: 0, description: "Súbete a la bicicleta y pedalea..."),
-        Exercise(id: 2, type: .strength, name: "Sentadilla trasera", series: 4, repetitions: 12, weight: 50, duration: 0, rest: 30, description: "Rompiendo el paralelo")
+        Exercise(id: 2, type: .strength, name: "Sentadilla trasera", series: 4, repetitions: 12, weight: 50, duration: 0, rest: 30, description: "Rompiendo el paralelo"),
+        Exercise(id: 3, type: .sport, name: "Futbol", series: 4, repetitions: 12, weight: 50, duration: 0, rest: 30, description: "Partido de futbol entre amigos...")
     ]
     
     @State var alertText: String = ""
@@ -19,7 +20,7 @@ struct ExercisesExampleFactoryMethodView: View {
     
     var body: some View {
         List {
-            ForEach(exercises, id: \.id) { exercise in
+            ForEach(exercises) { exercise in
                 Text(exercise.name)
                     .onTapGesture {
                         

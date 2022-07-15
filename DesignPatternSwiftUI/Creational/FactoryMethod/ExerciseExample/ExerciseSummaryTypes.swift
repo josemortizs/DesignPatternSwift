@@ -10,4 +10,5 @@ import Foundation
 enum ExerciseSummaryTypes {
     case strength
     case cardio
+    case sport
 }
