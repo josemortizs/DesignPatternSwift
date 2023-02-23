@@ -68,7 +68,6 @@
 		DB52F840278F68710036C620 /* EarnExampleFactoryMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F83F278F68710036C620 /* EarnExampleFactoryMethodView.swift */; };
 		DB52F842278F74200036C620 /* ForeignEarn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F841278F74200036C620 /* ForeignEarn.swift */; };
 		DB52F844278F753F0036C620 /* ForeignEarnFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52F843278F753F0036C620 /* ForeignEarnFactory.swift */; };
-		DB586A2B284A23C000B2ED63 /* SportExerciseSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB586A2A284A23C000B2ED63 /* SportExerciseSummary.swift */; };
 		DB59B7762799EEC9004DC75C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB59B7752799EEC9004DC75C /* Card.swift */; };
 		DB59B7782799F09F004DC75C /* BuilderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB59B7772799F09F004DC75C /* BuilderExampleView.swift */; };
 		DB5F52E827A69BBD003BD940 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5F52E727A69BBD003BD940 /* Mediator.swift */; };
@@ -103,9 +102,6 @@
 		DB7AAFB727989F28008ECDAD /* MontlyGoogleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AAFB627989F28008ECDAD /* MontlyGoogleFactory.swift */; };
 		DB7AAFB927989FB0008ECDAD /* PaymentAFMethodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AAFB827989FB0008ECDAD /* PaymentAFMethodClient.swift */; };
 		DB7AAFBB2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7AAFBA2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift */; };
-		DB921E2F288177E200115592 /* ExerciseWithoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB921E2E288177E200115592 /* ExerciseWithoutBuilder.swift */; };
-		DB921E3128817FF000115592 /* ExerciseWithBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB921E3028817FF000115592 /* ExerciseWithBuilder.swift */; };
-		DB921E352881811400115592 /* BuilderPatternExerciseExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB921E342881811400115592 /* BuilderPatternExerciseExampleView.swift */; };
 		DBA1F3F227B6E04A0004B00D /* MobileAlertStateContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1F3F127B6E04A0004B00D /* MobileAlertStateContext.swift */; };
 		DBA1F3F427B6E06B0004B00D /* MobileAlertState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1F3F327B6E06B0004B00D /* MobileAlertState.swift */; };
 		DBA1F3F727B6E09C0004B00D /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA1F3F627B6E09C0004B00D /* Sound.swift */; };
@@ -218,7 +214,6 @@
 		DB52F83F278F68710036C620 /* EarnExampleFactoryMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarnExampleFactoryMethodView.swift; sourceTree = "<group>"; };
 		DB52F841278F74200036C620 /* ForeignEarn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignEarn.swift; sourceTree = "<group>"; };
 		DB52F843278F753F0036C620 /* ForeignEarnFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignEarnFactory.swift; sourceTree = "<group>"; };
-		DB586A2A284A23C000B2ED63 /* SportExerciseSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportExerciseSummary.swift; sourceTree = "<group>"; };
 		DB59B7752799EEC9004DC75C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		DB59B7772799F09F004DC75C /* BuilderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderExampleView.swift; sourceTree = "<group>"; };
 		DB5F52E727A69BBD003BD940 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
@@ -253,9 +248,6 @@
 		DB7AAFB627989F28008ECDAD /* MontlyGoogleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontlyGoogleFactory.swift; sourceTree = "<group>"; };
 		DB7AAFB827989FB0008ECDAD /* PaymentAFMethodClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAFMethodClient.swift; sourceTree = "<group>"; };
 		DB7AAFBA2798AAC2008ECDAD /* AbstractFactoryPaymentMethodExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryPaymentMethodExampleView.swift; sourceTree = "<group>"; };
-		DB921E2E288177E200115592 /* ExerciseWithoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseWithoutBuilder.swift; sourceTree = "<group>"; };
-		DB921E3028817FF000115592 /* ExerciseWithBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseWithBuilder.swift; sourceTree = "<group>"; };
-		DB921E342881811400115592 /* BuilderPatternExerciseExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPatternExerciseExampleView.swift; sourceTree = "<group>"; };
 		DBA1F3F127B6E04A0004B00D /* MobileAlertStateContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAlertStateContext.swift; sourceTree = "<group>"; };
 		DBA1F3F327B6E06B0004B00D /* MobileAlertState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAlertState.swift; sourceTree = "<group>"; };
 		DBA1F3F627B6E09C0004B00D /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
@@ -599,7 +591,6 @@
 		DB59B7732799EE98004DC75C /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				DB921E2D288177C400115592 /* ExerciseExample */,
 				DB59B7742799EEA6004DC75C /* CardExample */,
 			);
 			path = Builder;
@@ -662,7 +653,6 @@
 				DB701FB92796114D001203A1 /* ExerciseSummary.swift */,
 				DB701FBB27961300001203A1 /* StrengthExerciseSummary.swift */,
 				DB701FBD27961462001203A1 /* CardioExerciseSummary.swift */,
-				DB586A2A284A23C000B2ED63 /* SportExerciseSummary.swift */,
 				DB701FBF279614F4001203A1 /* ExerciseSummaryTypes.swift */,
 				DB701FC12796154C001203A1 /* ExerciseSummaryFactory.swift */,
 				DB701FC3279616C2001203A1 /* ExercisesExampleFactoryMethodView.swift */,
@@ -721,16 +711,6 @@
 				DB7AAFB027989B70008ECDAD /* PaymentInAdvanceMethodAF.swift */,
 			);
 			path = Method;
-			sourceTree = "<group>";
-		};
-		DB921E2D288177C400115592 /* ExerciseExample */ = {
-			isa = PBXGroup;
-			children = (
-				DB921E2E288177E200115592 /* ExerciseWithoutBuilder.swift */,
-				DB921E3028817FF000115592 /* ExerciseWithBuilder.swift */,
-				DB921E342881811400115592 /* BuilderPatternExerciseExampleView.swift */,
-			);
-			path = ExerciseExample;
 			sourceTree = "<group>";
 		};
 		DBA1F3EF27B6E0260004B00D /* State */ = {
@@ -1060,7 +1040,6 @@
 				DBA610D227BC508E00DACFC1 /* CreditMarketFacade.swift in Sources */,
 				DB4CDA7B27B91F2D002E4300 /* ClassicCreditCardVisitor.swift in Sources */,
 				DB33EA9B27BB065600254E18 /* CreditComponent.swift in Sources */,
-				DB921E3128817FF000115592 /* ExerciseWithBuilder.swift in Sources */,
 				DBA610CC27BC4FF400DACFC1 /* BlackModule.swift in Sources */,
 				DBFA0BD927A45F6100FD69A6 /* CreditCardInvoker.swift in Sources */,
 				DBC1E97027B820880000B1CF /* AndExpression.swift in Sources */,
@@ -1088,14 +1067,12 @@
 				DB4CDA5D27B913EF002E4300 /* StrategyTextFormatter.swift in Sources */,
 				DBE27B5927B1A65B000DA6B5 /* MessagePublisher.swift in Sources */,
 				DB7AAF9C2798912B008ECDAD /* CardioExerciseSummaryFactory.swift in Sources */,
-				DB586A2B284A23C000B2ED63 /* SportExerciseSummary.swift in Sources */,
 				DB33EA8727BAF93D00254E18 /* CreditCardB.swift in Sources */,
 				DBA610D827BC526900DACFC1 /* Enemy.swift in Sources */,
 				DB4CDA6527B9153F002E4300 /* ExampleUpperUnderSideView.swift in Sources */,
 				DBFA0BD127A45D6800FD69A6 /* Command.swift in Sources */,
 				DB33EA7727BAF4EE00254E18 /* OperationTarget.swift in Sources */,
 				DB18517127A5BD3C00472A3E /* IteratorExampleCreditCardCollectionsView.swift in Sources */,
-				DB921E2F288177E200115592 /* ExerciseWithoutBuilder.swift in Sources */,
 				DBA1F3F727B6E09C0004B00D /* Sound.swift in Sources */,
 				DB4CDA7927B91EF5002E4300 /* FlightOffer.swift in Sources */,
 				DB5F52F227A69DDE003BD940 /* ChatExampleMediatorExampleView.swift in Sources */,
@@ -1123,7 +1100,6 @@
 				DBA610E827BC581900DACFC1 /* ProxyInternet.swift in Sources */,
 				DB7AAFA72798987A008ECDAD /* CardPaymentAF.swift in Sources */,
 				DB4CDA7527B91D97002E4300 /* OfferElement.swift in Sources */,
-				DB921E352881811400115592 /* BuilderPatternExerciseExampleView.swift in Sources */,
 				DBBFA28227A2F090005ED844 /* CardSingleton.swift in Sources */,
 				DBBFA29227A2F687005ED844 /* BankHandler.swift in Sources */,
 				DB5F52EC27A69C4C003BD940 /* ConcreteColleague1.swift in Sources */,
